@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SMA-WIDE">
+<description>SMA End Launch Jack Receptacle</description>
+<wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="-2.75" x2="-8.25" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-2.75" x2="-8.25" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-1.9" x2="-9.425" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="-1.9" x2="-9.425" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="1.9" x2="-8.25" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="1.9" x2="-8.25" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="2.75" x2="-4.45" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="4.65" x2="4.65" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="-4.65" x2="4.65" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="-3.85" x2="-0.1" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="-0.1" y1="-3.85" x2="-0.1" y2="3.85" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="3.85" x2="4.65" y2="3.85" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="3.85" x2="4.65" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="-1.55" y1="4.65" x2="-0.1" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="21"/>
+<smd name="1" x="2.5654" y="0" dx="5.08" dy="2.286" layer="1"/>
+<smd name="G@1" x="2.5654" y="4.4196" dx="5.08" dy="2.286" layer="1"/>
+<smd name="G@2" x="2.5654" y="-4.4196" dx="5.08" dy="2.286" layer="1"/>
+<smd name="G@4" x="2.5654" y="-4.4196" dx="5.08" dy="2.286" layer="16"/>
+<smd name="G@3" x="2.5654" y="4.4196" dx="5.08" dy="2.286" layer="16"/>
+<text x="0.635" y="6.35" size="1.778" layer="25">&gt;NAME</text>
+<text x="1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.025" y1="-0.5" x2="4.05" y2="0.5" layer="51"/>
+</package>
+<package name="EDGE-4PIN-100MIL-150X40">
+<description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt; with Finished-Layer&lt;p&gt; 
+Library for PCI-Express x16 (PCI-E) connector. Includes connector and card edge pattern.&lt;br&gt;
+Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
+<smd name="A1" x="7.62" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A2" x="10.16" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A3" x="12.7" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A4" x="15.24" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<text x="0" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="EDGE-2PIN-100MIL-150X40">
+<description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt; with Finished-Layer&lt;p&gt; 
+Library for PCI-Express x16 (PCI-E) connector. Includes connector and card edge pattern.&lt;br&gt;
+Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
+<smd name="A1" x="7.62" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A2" x="10.16" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<text x="0" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="EDGE-2PIN-200MIL-150X40">
+<description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt; with Finished-Layer&lt;p&gt; 
+Library for PCI-Express x16 (PCI-E) connector. Includes connector and card edge pattern.&lt;br&gt;
+Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
+<smd name="A1" x="7.62" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A2" x="12.7" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<text x="0" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="EDGE-3PIN-100MIL-150X40">
+<description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt; with Finished-Layer&lt;p&gt; 
+Library for PCI-Express x16 (PCI-E) connector. Includes connector and card edge pattern.&lt;br&gt;
+Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
+<smd name="A1" x="-2.54" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A2" x="0" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A3" x="2.54" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<text x="-10.16" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="COAX">
+<description>COAX symbol</description>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="CONN-4PIN">
+<wire x1="-5.08" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A1" x="-10.16" y="7.62" length="middle" direction="pas"/>
+<pin name="A2" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="A3" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="A4" x="-10.16" y="0" length="middle" direction="pas"/>
+</symbol>
+<symbol name="CONN-2PIN">
+<wire x1="-5.08" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A1" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="A2" x="-10.16" y="0" length="middle" direction="pas"/>
+</symbol>
+<symbol name="CONN-3PIN">
+<wire x1="-5.08" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<pin name="A1" x="-10.16" y="7.62" visible="pad" length="middle" direction="pas"/>
+<pin name="A2" x="-10.16" y="5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="A3" x="-10.16" y="2.54" visible="pad" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMA" prefix="J">
+<description>&lt;b&gt;SMA 50 Ohm&lt;/b&gt; End Launch Jack Receptacle - Round Contact&lt;p&gt;
+Johnson Components&lt;br&gt;
+Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
+<gates>
+<gate name="G1" symbol="COAX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-W" package="SMA-WIDE">
+<connects>
+<connect gate="G1" pin="1" pad="1"/>
+<connect gate="G1" pin="2" pad="G@1 G@2 G@3 G@4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="JOHNSON COMPONENTS" constant="no"/>
+<attribute name="MPN" value="142-0701-801" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EDGE-4PIN" prefix="J">
+<gates>
+<gate name="G$1" symbol="CONN-4PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-100-150X40" package="EDGE-4PIN-100MIL-150X40">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EDGE-2PIN" prefix="J">
+<gates>
+<gate name="G$1" symbol="CONN-2PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-100-150X40" package="EDGE-2PIN-100MIL-150X40">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-200-150X40" package="EDGE-2PIN-200MIL-150X40">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EDGE-3PIN" prefix="J">
+<gates>
+<gate name="G$1" symbol="CONN-3PIN" x="2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="-100-150X40" package="EDGE-3PIN-100MIL-150X40">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

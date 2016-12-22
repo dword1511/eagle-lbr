@@ -90,31 +90,31 @@
 <rectangle x1="-0.025" y1="-0.5" x2="4.05" y2="0.5" layer="51"/>
 </package>
 <package name="EDGE-4PIN-100MIL-150X40">
-<smd name="A1" x="7.62" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
-<smd name="A2" x="10.16" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
-<smd name="A3" x="12.7" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
-<smd name="A4" x="15.24" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
-<text x="0" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="A1" x="-3.81" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A2" x="-1.27" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A3" x="1.27" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A4" x="3.81" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<text x="-8.89" y="0" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-8.89" y="-1.27" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="EDGE-2PIN-100MIL-150X40">
-<smd name="A1" x="7.62" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
-<smd name="A2" x="10.16" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
-<text x="0" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="A1" x="-1.27" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A2" x="1.27" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<text x="-6.35" y="0" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-6.35" y="-1.27" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="EDGE-2PIN-200MIL-150X40">
-<smd name="A1" x="7.62" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
-<smd name="A2" x="12.7" y="2.54" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
-<text x="0" y="2.54" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="A1" x="-2.54" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<smd name="A2" x="2.54" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
+<text x="-7.62" y="0" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-1.27" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="EDGE-3PIN-100MIL-150X40">
 <smd name="A1" x="-2.54" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
 <smd name="A2" x="0" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
 <smd name="A3" x="2.54" y="0" dx="3.81" dy="1.016" layer="1" roundness="40" rot="R90" cream="no"/>
-<text x="-10.16" y="0" size="1.27" layer="25">&gt;NAME</text>
-<text x="-10.16" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-7.62" y="0" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-1.27" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="PAD-7.5X2.5">
 <smd name="1" x="0" y="0" dx="7.5" dy="2.5" layer="1"/>

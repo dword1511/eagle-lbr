@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -223,7 +223,7 @@
 <wire x1="-2.54" y1="-1.524" x2="-2.54" y2="1.524" width="0.127" layer="21"/>
 <smd name="PAD" x="0" y="0" dx="3.5" dy="2.6" layer="1"/>
 </package>
-<package name="TO-92">
+<package name="TO-92R">
 <wire x1="-2.095" y1="-2.921" x2="2.095" y2="-2.921" width="0.1524" layer="21"/>
 <wire x1="-2.413" y1="-0.1341" x2="2.413" y2="-0.1341" width="0.1524" layer="21" curve="-129.583"/>
 <wire x1="1.136" y1="-1.397" x2="-1.136" y2="-1.397" width="0.1524" layer="51"/>
@@ -235,8 +235,8 @@
 <wire x1="2.664" y1="-1.397" x2="1.404" y2="-1.397" width="0.1524" layer="51"/>
 <wire x1="1.404" y1="-1.397" x2="1.136" y2="-1.397" width="0.1524" layer="21"/>
 <wire x1="2.095" y1="-2.921" x2="2.4247" y2="-2.3818" width="0.1524" layer="21" curve="13.6094"/>
-<pad name="3" x="-2.54" y="-1.27" drill="0.8128" shape="square" rot="R90"/>
-<pad name="1" x="2.54" y="-1.27" drill="0.8128" rot="R90"/>
+<pad name="3" x="-2.54" y="-1.27" drill="0.8128" rot="R90"/>
+<pad name="1" x="2.54" y="-1.27" drill="0.8128" shape="square" rot="R90" first="yes"/>
 <pad name="2" x="0" y="-1.27" drill="0.8128" rot="R90"/>
 <text x="-2.54" y="1.778" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-4.572" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
@@ -264,6 +264,24 @@
 <rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51"/>
 <smd name="6" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
 </package>
+<package name="TO-92">
+<wire x1="-2.095" y1="-2.921" x2="2.095" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-0.1341" x2="2.413" y2="-0.1341" width="0.1524" layer="21" curve="-129.583"/>
+<wire x1="1.136" y1="-1.397" x2="-1.136" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="-0.1341" x2="-2.413" y2="-2.4059" width="0.1524" layer="51" curve="50.4167"/>
+<wire x1="-1.404" y1="-1.397" x2="-2.664" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-2.4135" y1="-2.4059" x2="-2.095" y2="-2.921" width="0.1524" layer="21" curve="13.0385"/>
+<wire x1="-1.136" y1="-1.397" x2="-1.404" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-2.4059" x2="2.413" y2="-0.1341" width="0.1524" layer="51" curve="50.4167"/>
+<wire x1="2.664" y1="-1.397" x2="1.404" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="1.404" y1="-1.397" x2="1.136" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="2.095" y1="-2.921" x2="2.4247" y2="-2.3818" width="0.1524" layer="21" curve="13.6094"/>
+<pad name="3" x="2.54" y="-1.27" drill="0.8128" rot="R90"/>
+<pad name="1" x="-2.54" y="-1.27" drill="0.8128" shape="square" rot="R90" first="yes"/>
+<pad name="2" x="0" y="-1.27" drill="0.8128" rot="R90"/>
+<text x="-2.54" y="1.778" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-4.572" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="N-MOSFET">
@@ -289,9 +307,9 @@
 <circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
 <text x="-11.43" y="0" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-11.43" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 <polygon width="0.1524" layer="94">
 <vertex x="3.81" y="0.508"/>
 <vertex x="3.302" y="-0.254"/>
@@ -326,9 +344,9 @@
 <circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
 <text x="-11.43" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-11.43" y="-1.27" size="1.778" layer="95">&gt;NAME</text>
-<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="G" x="-2.54" y="2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="G" x="-2.54" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <polygon width="0.1524" layer="94">
 <vertex x="3.81" y="0.508"/>
 <vertex x="4.318" y="-0.254"/>
@@ -407,6 +425,65 @@
 <connect gate="B" pin="D" pad="5 6"/>
 <connect gate="B" pin="G" pad="4"/>
 <connect gate="B" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI3585CDV" prefix="Q">
+<gates>
+<gate name="A" symbol="N-MOSFET" x="-2.54" y="10.16"/>
+<gate name="B" symbol="P-MOSFET" x="-2.54" y="-10.16" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="A" pin="D" pad="6"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="5"/>
+<connect gate="B" pin="D" pad="4"/>
+<connect gate="B" pin="G" pad="3"/>
+<connect gate="B" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI3590DV" prefix="Q">
+<gates>
+<gate name="A" symbol="N-MOSFET" x="-2.54" y="10.16"/>
+<gate name="B" symbol="P-MOSFET" x="-2.54" y="-10.16" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="A" pin="D" pad="6"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="5"/>
+<connect gate="B" pin="D" pad="4"/>
+<connect gate="B" pin="G" pad="3"/>
+<connect gate="B" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BS170">
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-92">
+<connects>
+<connect gate="G$1" pin="D" pad="1"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

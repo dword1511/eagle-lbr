@@ -694,7 +694,7 @@
 <text x="-1.381" y="-2.016" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 <circle x="-0.889" y="1.397" radius="0.254" width="0" layer="21"/>
 </package>
-<package name="TO-92">
+<package name="TO-92R">
 <wire x1="-2.095" y1="-2.921" x2="2.095" y2="-2.921" width="0.1524" layer="21"/>
 <wire x1="-2.413" y1="-0.1341" x2="2.413" y2="-0.1341" width="0.1524" layer="21" curve="-129.583"/>
 <wire x1="1.136" y1="-1.397" x2="-1.136" y2="-1.397" width="0.1524" layer="51"/>
@@ -706,8 +706,8 @@
 <wire x1="2.664" y1="-1.397" x2="1.404" y2="-1.397" width="0.1524" layer="51"/>
 <wire x1="1.404" y1="-1.397" x2="1.136" y2="-1.397" width="0.1524" layer="21"/>
 <wire x1="2.095" y1="-2.921" x2="2.4247" y2="-2.3818" width="0.1524" layer="21" curve="13.6094"/>
-<pad name="3" x="-2.54" y="-1.27" drill="0.8128" shape="square" rot="R90"/>
-<pad name="1" x="2.54" y="-1.27" drill="0.8128" rot="R90"/>
+<pad name="3" x="-2.54" y="-1.27" drill="0.8128" rot="R90"/>
+<pad name="1" x="2.54" y="-1.27" drill="0.8128" shape="square" rot="R90" first="yes"/>
 <pad name="2" x="0" y="-1.27" drill="0.8128" rot="R90"/>
 <text x="-2.54" y="1.778" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-4.572" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
@@ -741,6 +741,24 @@
 <wire x1="-0.175" y1="0.625" x2="0.175" y2="0.625" width="0.127" layer="21"/>
 <circle x="-1.5" y="-0.7" radius="0.254" width="0" layer="21"/>
 <text x="-2" y="1.6" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="TO-92">
+<wire x1="-2.095" y1="-2.921" x2="2.095" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-0.1341" x2="2.413" y2="-0.1341" width="0.1524" layer="21" curve="-129.583"/>
+<wire x1="1.136" y1="-1.397" x2="-1.136" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="-0.1341" x2="-2.413" y2="-2.4059" width="0.1524" layer="51" curve="50.4167"/>
+<wire x1="-1.404" y1="-1.397" x2="-2.664" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-2.4135" y1="-2.4059" x2="-2.095" y2="-2.921" width="0.1524" layer="21" curve="13.0385"/>
+<wire x1="-1.136" y1="-1.397" x2="-1.404" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-2.4059" x2="2.413" y2="-0.1341" width="0.1524" layer="51" curve="50.4167"/>
+<wire x1="2.664" y1="-1.397" x2="1.404" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="1.404" y1="-1.397" x2="1.136" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="2.095" y1="-2.921" x2="2.4247" y2="-2.3818" width="0.1524" layer="21" curve="13.6094"/>
+<pad name="3" x="2.54" y="-1.27" drill="0.8128" rot="R90"/>
+<pad name="1" x="-2.54" y="-1.27" drill="0.8128" shape="square" rot="R90" first="yes"/>
+<pad name="2" x="0" y="-1.27" drill="0.8128" rot="R90"/>
+<text x="-2.54" y="1.778" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-4.572" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1241,39 +1259,39 @@
 <deviceset name="AU6433" prefix="U">
 <description>USB2.0 single LUN multi-card integrated reader for laptops</description>
 <gates>
-<gate name="IC" symbol="AU6433" x="0" y="0"/>
+<gate name="G$1" symbol="AU6433" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SSOP-28N">
 <connects>
-<connect gate="IC" pin="!RESET" pad="5"/>
-<connect gate="IC" pin="1V8" pad="11"/>
-<connect gate="IC" pin="3V3_1" pad="13"/>
-<connect gate="IC" pin="3V3_2" pad="14"/>
-<connect gate="IC" pin="CARD_3V3" pad="12"/>
-<connect gate="IC" pin="CLK48M_IN" pad="4"/>
-<connect gate="IC" pin="DM" pad="9"/>
-<connect gate="IC" pin="DP" pad="8"/>
-<connect gate="IC" pin="GND" pad="15"/>
-<connect gate="IC" pin="P3V3" pad="7"/>
-<connect gate="IC" pin="PGND" pad="10"/>
-<connect gate="IC" pin="REXT_330R" pad="6"/>
-<connect gate="IC" pin="SD_CD/XD_WE" pad="2"/>
-<connect gate="IC" pin="SD_CLK/XD_ALE/MS_BS" pad="25"/>
-<connect gate="IC" pin="SD_CMD/XD_RB" pad="23"/>
-<connect gate="IC" pin="SD_D0/XD_D0/MS_D0" pad="28"/>
-<connect gate="IC" pin="SD_D1/XD_D1/MS_D1" pad="1"/>
-<connect gate="IC" pin="SD_D2/XD_D2/MS_D2" pad="20"/>
-<connect gate="IC" pin="SD_D3/XD_D3/MS_D3" pad="21"/>
-<connect gate="IC" pin="SD_WP/XD_CLE/MS_CLK" pad="3"/>
-<connect gate="IC" pin="XD_CD" pad="17"/>
-<connect gate="IC" pin="XD_CE" pad="18"/>
-<connect gate="IC" pin="XD_D4" pad="22"/>
-<connect gate="IC" pin="XD_D5" pad="24"/>
-<connect gate="IC" pin="XD_D6" pad="26"/>
-<connect gate="IC" pin="XD_D7" pad="27"/>
-<connect gate="IC" pin="XD_RE/MS_INS" pad="16"/>
-<connect gate="IC" pin="XD_WP" pad="19"/>
+<connect gate="G$1" pin="!RESET" pad="5"/>
+<connect gate="G$1" pin="1V8" pad="11"/>
+<connect gate="G$1" pin="3V3_1" pad="13"/>
+<connect gate="G$1" pin="3V3_2" pad="14"/>
+<connect gate="G$1" pin="CARD_3V3" pad="12"/>
+<connect gate="G$1" pin="CLK48M_IN" pad="4"/>
+<connect gate="G$1" pin="DM" pad="9"/>
+<connect gate="G$1" pin="DP" pad="8"/>
+<connect gate="G$1" pin="GND" pad="15"/>
+<connect gate="G$1" pin="P3V3" pad="7"/>
+<connect gate="G$1" pin="PGND" pad="10"/>
+<connect gate="G$1" pin="REXT_330R" pad="6"/>
+<connect gate="G$1" pin="SD_CD/XD_WE" pad="2"/>
+<connect gate="G$1" pin="SD_CLK/XD_ALE/MS_BS" pad="25"/>
+<connect gate="G$1" pin="SD_CMD/XD_RB" pad="23"/>
+<connect gate="G$1" pin="SD_D0/XD_D0/MS_D0" pad="28"/>
+<connect gate="G$1" pin="SD_D1/XD_D1/MS_D1" pad="1"/>
+<connect gate="G$1" pin="SD_D2/XD_D2/MS_D2" pad="20"/>
+<connect gate="G$1" pin="SD_D3/XD_D3/MS_D3" pad="21"/>
+<connect gate="G$1" pin="SD_WP/XD_CLE/MS_CLK" pad="3"/>
+<connect gate="G$1" pin="XD_CD" pad="17"/>
+<connect gate="G$1" pin="XD_CE" pad="18"/>
+<connect gate="G$1" pin="XD_D4" pad="22"/>
+<connect gate="G$1" pin="XD_D5" pad="24"/>
+<connect gate="G$1" pin="XD_D6" pad="26"/>
+<connect gate="G$1" pin="XD_D7" pad="27"/>
+<connect gate="G$1" pin="XD_RE/MS_INS" pad="16"/>
+<connect gate="G$1" pin="XD_WP" pad="19"/>
 </connects>
 <technologies>
 <technology name=""/>

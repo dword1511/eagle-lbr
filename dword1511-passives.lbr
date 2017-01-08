@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,8 +22,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -44,8 +44,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="25" fill="4" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="17" fill="5" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -262,27 +262,32 @@
 <smd name="P$1" x="-0.635" y="-0.635" dx="1.6764" dy="0.8128" layer="1" rot="R90"/>
 <smd name="P$2" x="0.635" y="-0.635" dx="1.6764" dy="0.8128" layer="1" rot="R90"/>
 </package>
-<package name="SRU8043">
+<package name="SRU80XX">
 <smd name="1" x="-3.9" y="0" dx="2" dy="3.2" layer="1"/>
 <smd name="2" x="3.9" y="0" dx="2" dy="3.2" layer="1"/>
-<circle x="1" y="0" radius="0.282840625" width="0" layer="21"/>
-<wire x1="2.5" y1="4" x2="-2.5" y2="4" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-4" x2="-2.5" y2="-4" width="0.127" layer="21"/>
-<wire x1="-4" y1="1.8" x2="-4" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4" y1="1.8" x2="4" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-4" y1="2.5" x2="-2.5" y2="4" width="0.127" layer="21"/>
-<wire x1="2.5" y1="4" x2="4" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-4" y1="-2.5" x2="-2.5" y2="-4" width="0.127" layer="21"/>
-<wire x1="-4" y1="-2.5" x2="-4" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="4" y1="-2.5" x2="4" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-4" x2="4" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="1.5" x2="2.7" y2="1.3" width="0.127" layer="21" curve="-124.308407"/>
-<wire x1="2.6" y1="-1.5" x2="-2.7" y2="-1.3" width="0.127" layer="21" curve="-124.308407"/>
-<rectangle x1="-2.6" y1="-0.2" x2="-2" y2="0.2" layer="21"/>
-<rectangle x1="2" y1="-0.2" x2="2.6" y2="0.2" layer="21"/>
-<rectangle x1="-1.4" y1="-1.2" x2="0" y2="1.4" layer="21"/>
-<text x="-2.54" y="5.08" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<circle x="1" y="0" radius="0.282840625" width="0" layer="51"/>
+<wire x1="1.8" y1="4" x2="-1.8" y2="4" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-4" x2="-1.8" y2="-4" width="0.127" layer="21"/>
+<rectangle x1="-2.6" y1="-0.2" x2="-2" y2="0.2" layer="51"/>
+<rectangle x1="2" y1="-0.2" x2="2.6" y2="0.2" layer="51"/>
+<rectangle x1="-1.4" y1="-1.2" x2="0" y2="1.4" layer="51"/>
+<text x="-1.94" y="4.38" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.84" y="-5.18" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-4" y1="-1.8" x2="-1.8" y2="-4" width="0.127" layer="21"/>
+<wire x1="-4" y1="1.8" x2="-1.8" y2="4" width="0.127" layer="21"/>
+<wire x1="4" y1="1.8" x2="1.8" y2="4" width="0.127" layer="21"/>
+<wire x1="4" y1="-1.8" x2="1.8" y2="-4" width="0.127" layer="21"/>
+<rectangle x1="-4.2" y1="-1.6" x2="-3.2" y2="1.6" layer="51"/>
+<rectangle x1="3.2" y1="-1.6" x2="4.2" y2="1.6" layer="51"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="51"/>
+<wire x1="-4" y1="1.8" x2="-1.8" y2="4" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="4" x2="1.8" y2="4" width="0.127" layer="51"/>
+<wire x1="1.8" y1="4" x2="4" y2="1.8" width="0.127" layer="51"/>
+<wire x1="4" y1="1.8" x2="4" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="4" y1="-1.8" x2="1.8" y2="-4" width="0.127" layer="51"/>
+<wire x1="1.8" y1="-4" x2="-1.8" y2="-4" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="-4" x2="-4" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="-4" y1="-1.8" x2="-4" y2="1.8" width="0.127" layer="51"/>
 </package>
 <package name="CD54">
 <smd name="P$1" x="0" y="-1.925" dx="5.5" dy="2.15" layer="1"/>
@@ -290,6 +295,20 @@
 <rectangle x1="-3" y1="-0.8" x2="3" y2="0.8" layer="21"/>
 <text x="-2.54" y="5.08" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="3.81" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<polygon width="0.127" layer="51">
+<vertex x="-2.6" y="0.8"/>
+<vertex x="2.6" y="0.8"/>
+<vertex x="2.6" y="1.3" curve="125"/>
+<vertex x="-2.6" y="1.3"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="2.6" y="-0.8"/>
+<vertex x="-2.6" y="-0.8"/>
+<vertex x="-2.6" y="-1.3" curve="125"/>
+<vertex x="2.6" y="-1.3"/>
+</polygon>
+<wire x1="-2.6" y1="-0.8" x2="-2.6" y2="0.8" width="0.127" layer="51"/>
+<wire x1="2.6" y1="-0.8" x2="2.6" y2="0.8" width="0.127" layer="51"/>
 </package>
 <package name="IND-RAD-150MIL">
 <pad name="1" x="-1.905" y="0" drill="0.8" diameter="1.6764" rot="R90"/>
@@ -331,6 +350,36 @@
 <rectangle x1="-0.75" y1="-3.5" x2="0.75" y2="3.5" layer="21"/>
 <text x="-2.54" y="5.08" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="3.81" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<circle x="0" y="0" radius="2.85" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2" x2="-2" y2="-3" width="0.127" layer="51"/>
+<wire x1="-2" y1="-3" x2="2" y2="-3" width="0.127" layer="51"/>
+<wire x1="2" y1="-3" x2="3" y2="-2" width="0.127" layer="51" curve="90"/>
+<wire x1="3" y1="-2" x2="3" y2="2" width="0.127" layer="51"/>
+<wire x1="3" y1="2" x2="2" y2="3" width="0.127" layer="51"/>
+<wire x1="2" y1="3" x2="-2" y2="3" width="0.127" layer="51"/>
+<wire x1="-2" y1="3" x2="-3" y2="2" width="0.127" layer="51" curve="90"/>
+<wire x1="-3" y1="2" x2="-3" y2="-2" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="2.3" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-1" y="-3"/>
+<vertex x="-1" y="-2" curve="-126.869898"/>
+<vertex x="-1" y="2"/>
+<vertex x="-1" y="3"/>
+<vertex x="-2" y="3"/>
+<vertex x="-3" y="2"/>
+<vertex x="-3" y="-2"/>
+<vertex x="-2" y="-3"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="1" y="3"/>
+<vertex x="1" y="2" curve="-126.869898"/>
+<vertex x="1" y="-2"/>
+<vertex x="1" y="-3"/>
+<vertex x="2" y="-3"/>
+<vertex x="3" y="-2"/>
+<vertex x="3" y="2"/>
+<vertex x="2" y="3"/>
+</polygon>
 </package>
 <package name="CDRH5D18BHP">
 <smd name="1" x="0" y="2.55" dx="2.5" dy="1.9" layer="1"/>
@@ -338,8 +387,6 @@
 <wire x1="-3" y1="2" x2="-3" y2="-2" width="0.127" layer="21"/>
 <wire x1="3" y1="-2" x2="3" y2="2" width="0.127" layer="21"/>
 <wire x1="3" y1="2" x2="2" y2="3" width="0.127" layer="21"/>
-<wire x1="-0.9" y1="1.5" x2="-0.9" y2="-1.5" width="0.127" layer="21" curve="118"/>
-<wire x1="0.9" y1="-1.5" x2="0.9" y2="1.5" width="0.127" layer="21" curve="118"/>
 <wire x1="-3" y1="-2" x2="-2" y2="-3" width="0.127" layer="21" curve="90"/>
 <wire x1="-2" y1="-3" x2="-1.5" y2="-3" width="0.127" layer="21"/>
 <wire x1="1.5" y1="3" x2="2" y2="3" width="0.127" layer="21"/>
@@ -349,6 +396,46 @@
 <wire x1="-2" y1="3" x2="-1.5" y2="3" width="0.127" layer="21"/>
 <text x="-2.54" y="5.08" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="3.81" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<circle x="0" y="0" radius="1.75" width="0.127" layer="51"/>
+<wire x1="-3" y1="2" x2="-3" y2="-2" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2" x2="-2" y2="-3" width="0.127" layer="51" curve="90"/>
+<wire x1="-2" y1="-3" x2="2" y2="-3" width="0.127" layer="51"/>
+<wire x1="-3" y1="2" x2="-2" y2="3" width="0.127" layer="51"/>
+<wire x1="-2" y1="3" x2="2" y2="3" width="0.127" layer="51"/>
+<wire x1="2" y1="-3" x2="3" y2="-2" width="0.127" layer="51"/>
+<wire x1="3" y1="-2" x2="3" y2="2" width="0.127" layer="51"/>
+<wire x1="3" y1="2" x2="2" y2="3" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="1.1" y="3"/>
+<vertex x="-1.1" y="3"/>
+<vertex x="-1.1" y="1.7" curve="-64.912617"/>
+<vertex x="1.1" y="1.7"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-1.1" y="-3"/>
+<vertex x="1.1" y="-3"/>
+<vertex x="1.1" y="-1.7" curve="-64.912617"/>
+<vertex x="-1.1" y="-1.7"/>
+</polygon>
+</package>
+<package name="NR60XX">
+<smd name="1" x="-2.2" y="0" dx="1.9" dy="5.7" layer="1"/>
+<smd name="2" x="2.2" y="0" dx="1.9" dy="5.7" layer="1"/>
+<text x="-1.94" y="4.38" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.84" y="-5.18" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3" y1="2" x2="-3" y2="-2" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2" x2="-2" y2="-3" width="0.127" layer="51"/>
+<wire x1="-2" y1="-3" x2="2" y2="-3" width="0.127" layer="51"/>
+<wire x1="2" y1="-3" x2="3" y2="-2" width="0.127" layer="51"/>
+<wire x1="3" y1="-2" x2="3" y2="2" width="0.127" layer="51"/>
+<wire x1="3" y1="2" x2="2" y2="3" width="0.127" layer="51"/>
+<wire x1="2" y1="3" x2="-2" y2="3" width="0.127" layer="51"/>
+<wire x1="-2" y1="3" x2="-3" y2="2" width="0.127" layer="51"/>
+<rectangle x1="-2.675" y1="-3" x2="-1.325" y2="3" layer="51"/>
+<rectangle x1="1.325" y1="-3" x2="2.675" y2="3" layer="51"/>
+<rectangle x1="-1.1" y1="-3" x2="1.1" y2="3" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -430,7 +517,7 @@
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-SRU8043" package="SRU8043">
+<device name="-SRU80XX" package="SRU80XX">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>

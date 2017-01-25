@@ -282,6 +282,29 @@
 <text x="-2.54" y="1.778" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-4.572" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
+<package name="SOT-363">
+<smd name="1" x="-0.65" y="-0.95" dx="0.42" dy="0.6" layer="1"/>
+<smd name="2" x="0" y="-0.95" dx="0.42" dy="0.6" layer="1"/>
+<smd name="3" x="0.65" y="-0.95" dx="0.42" dy="0.6" layer="1"/>
+<smd name="4" x="0.65" y="0.95" dx="0.42" dy="0.6" layer="1"/>
+<smd name="5" x="0" y="0.95" dx="0.42" dy="0.6" layer="1"/>
+<smd name="6" x="-0.65" y="0.95" dx="0.42" dy="0.6" layer="1"/>
+<wire x1="-1.075" y1="0.65" x2="1.075" y2="0.65" width="0.127" layer="51"/>
+<wire x1="1.075" y1="0.65" x2="1.075" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="1.075" y1="-0.65" x2="-1.075" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="-1.075" y1="-0.65" x2="-1.075" y2="0.65" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.4" x2="-1" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="1" y1="0.4" x2="1" y2="-0.4" width="0.127" layer="21"/>
+<circle x="-1.3462" y="-0.9398" radius="0.254" width="0" layer="21"/>
+<rectangle x1="-0.775" y1="0.7" x2="-0.525" y2="1.1" layer="51"/>
+<rectangle x1="-0.125" y1="-1.1" x2="0.125" y2="-0.7" layer="51"/>
+<rectangle x1="0.525" y1="0.7" x2="0.775" y2="1.1" layer="51"/>
+<rectangle x1="-0.775" y1="-1.1" x2="-0.525" y2="-0.7" layer="51"/>
+<rectangle x1="-0.125" y1="0.7" x2="0.125" y2="1.1" layer="51"/>
+<rectangle x1="0.525" y1="-1.1" x2="0.775" y2="-0.7" layer="51"/>
+<text x="-1.27" y="-0.508" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2.286" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="N-MOSFET">
@@ -484,6 +507,27 @@
 <connect gate="G$1" pin="D" pad="1"/>
 <connect gate="G$1" pin="G" pad="2"/>
 <connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMN32D4SDW" prefix="Q">
+<gates>
+<gate name="A" symbol="N-MOSFET" x="-2.54" y="10.16"/>
+<gate name="B" symbol="N-MOSFET" x="-2.54" y="-10.16" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="SOT-363">
+<connects>
+<connect gate="A" pin="D" pad="3"/>
+<connect gate="A" pin="G" pad="5"/>
+<connect gate="A" pin="S" pad="4"/>
+<connect gate="B" pin="D" pad="6"/>
+<connect gate="B" pin="G" pad="2"/>
+<connect gate="B" pin="S" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

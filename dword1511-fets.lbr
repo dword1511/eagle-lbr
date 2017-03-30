@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -137,6 +137,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>MOSFETs, JFETs, etc., Single and Arrays.</description>
 <packages>
 <package name="POWER-SO8">
 <description>Aka: LFPAK56, SOT669</description>
@@ -419,6 +420,7 @@
 </symbols>
 <devicesets>
 <deviceset name="BUK9Y3R5" prefix="Q">
+<description>40V VDS, 5VGS, 3.8mOhm, 100A N-Channel MOSFET</description>
 <gates>
 <gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
 </gates>
@@ -436,6 +438,7 @@
 </devices>
 </deviceset>
 <deviceset name="SI9926CDY" prefix="Q">
+<description>Dual 20V VDS, 2.5VGS, 22mOhm, 8A N-Channel MOSFETs</description>
 <gates>
 <gate name="A" symbol="N-MOSFET" x="-2.54" y="10.16"/>
 <gate name="B" symbol="N-MOSFET" x="-2.54" y="-10.16" swaplevel="1"/>
@@ -457,6 +460,7 @@
 </devices>
 </deviceset>
 <deviceset name="SI3585CDV" prefix="Q">
+<description>20V VDS, 2.5VGS, 78mOhm, 3.3A N-Channel MOSFET and 316mOhm, 1.7A P-Channel MOSFET</description>
 <gates>
 <gate name="A" symbol="N-MOSFET" x="-2.54" y="10.16"/>
 <gate name="B" symbol="P-MOSFET" x="-2.54" y="-10.16" swaplevel="1"/>
@@ -478,6 +482,7 @@
 </devices>
 </deviceset>
 <deviceset name="SI3590DV" prefix="Q">
+<description>30V VDS, 2.5VGS, 120mOhm, 2A N-Channel MOSFET and 300mOhm, 1.2A P-Channel MOSFET</description>
 <gates>
 <gate name="A" symbol="N-MOSFET" x="-2.54" y="10.16"/>
 <gate name="B" symbol="P-MOSFET" x="-2.54" y="-10.16" swaplevel="1"/>
@@ -499,6 +504,7 @@
 </devices>
 </deviceset>
 <deviceset name="BS170" prefix="Q">
+<description>60V VDS, 10VGS, 5Ohm, 500mA N-Channel Small-Signal MOSFET</description>
 <gates>
 <gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
 </gates>
@@ -516,6 +522,7 @@
 </devices>
 </deviceset>
 <deviceset name="DMN32D4SDW" prefix="Q">
+<description>Dual 30V VDS, 4.5VGS, 700mOhm, 520mA N-Channel MOSFETs</description>
 <gates>
 <gate name="A" symbol="N-MOSFET" x="-2.54" y="10.16"/>
 <gate name="B" symbol="N-MOSFET" x="-2.54" y="-10.16" swaplevel="1"/>
@@ -529,6 +536,42 @@
 <connect gate="B" pin="D" pad="6"/>
 <connect gate="B" pin="G" pad="2"/>
 <connect gate="B" pin="S" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI3456BDV" prefix="Q">
+<description>30V VDS, 4.5VGS, 52mOhm, 4.9A N-Channel MOSFET</description>
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="D" pad="1 2 5 6"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI3443BDV" prefix="Q">
+<description>20V VDS, 2.5VGS, 100mOhm, 3.7A P-Channel MOSFET</description>
+<gates>
+<gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="D" pad="1 2 5 6"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="S" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

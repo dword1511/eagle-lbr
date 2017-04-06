@@ -129,6 +129,8 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
@@ -307,6 +309,80 @@
 <text x="-1.27" y="-0.508" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 <text x="2.286" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
+<package name="SOT-223">
+<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="2" x="0" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="3" x="2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="4" x="0" y="3.15" dx="3.8" dy="2" layer="1"/>
+<text x="-3.8608" y="-1.905" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="-1.905" y="-0.6858" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
+</package>
+<package name="TO-252AA">
+<description>Aka: D-PAK</description>
+<wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
+<smd name="4" x="0" y="2.38" dx="5.8" dy="6.2" layer="1"/>
+<smd name="1" x="-2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
+<smd name="3" x="2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
+<text x="-1.27" y="-5.08" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.905" y="-1.905" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
+<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="3.937"/>
+<vertex x="-2.5654" y="4.6482"/>
+<vertex x="-2.1082" y="5.1054"/>
+<vertex x="2.1082" y="5.1054"/>
+<vertex x="2.5654" y="4.6482"/>
+<vertex x="2.5654" y="3.937"/>
+</polygon>
+</package>
+<package name="SMD-220">
+<description>Aka: D2PAK</description>
+<wire x1="-5.1308" y1="-4.0894" x2="5.1308" y2="-4.0894" width="0.254" layer="21"/>
+<wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
+<wire x1="5.1308" y1="4.445" x2="3.1242" y2="5.8166" width="0.254" layer="51"/>
+<wire x1="3.1242" y1="5.8166" x2="-3.3782" y2="5.8166" width="0.254" layer="51"/>
+<wire x1="-3.3782" y1="5.8166" x2="-5.1308" y2="4.699" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="4.699" x2="-5.1308" y2="4.445" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="4.445" x2="-5.1308" y2="-4.0894" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="4.445" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="-4.0894" x2="-5.1308" y2="-2.3114" width="0.254" layer="21"/>
+<wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="-2.3114" width="0.254" layer="21"/>
+<smd name="1" x="-2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
+<smd name="3" x="2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
+<smd name="2" x="0" y="2.54" dx="11.43" dy="8.89" layer="1"/>
+<text x="-1.143" y="-8.001" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-3.429" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-3.0988" y1="-9.525" x2="-1.9812" y2="-8.1026" layer="51"/>
+<rectangle x1="-3.2512" y1="-8.1534" x2="-1.8288" y2="-6.731" layer="51"/>
+<rectangle x1="-3.2512" y1="-6.731" x2="-1.8288" y2="-4.2418" layer="21"/>
+<rectangle x1="1.9812" y1="-9.525" x2="3.0988" y2="-8.1026" layer="51"/>
+<rectangle x1="1.8288" y1="-8.1534" x2="3.2512" y2="-6.731" layer="51"/>
+<rectangle x1="1.8288" y1="-6.731" x2="3.2512" y2="-4.2418" layer="21"/>
+<rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="N-MOSFET">
@@ -420,7 +496,7 @@
 </symbols>
 <devicesets>
 <deviceset name="BUK9Y3R5" prefix="Q">
-<description>40V VDS, 5VGS, 3.8mOhm, 100A N-Channel MOSFET</description>
+<description>40VDS, 5VGS, 3.8mOhm, 100A N-Channel MOSFET</description>
 <gates>
 <gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
 </gates>
@@ -438,7 +514,7 @@
 </devices>
 </deviceset>
 <deviceset name="SI9926CDY" prefix="Q">
-<description>Dual 20V VDS, 2.5VGS, 22mOhm, 8A N-Channel MOSFETs</description>
+<description>Dual 20VDS, 2.5VGS, 22mOhm, 8A N-Channel MOSFETs</description>
 <gates>
 <gate name="A" symbol="N-MOSFET" x="-2.54" y="10.16"/>
 <gate name="B" symbol="N-MOSFET" x="-2.54" y="-10.16" swaplevel="1"/>
@@ -460,7 +536,7 @@
 </devices>
 </deviceset>
 <deviceset name="SI3585CDV" prefix="Q">
-<description>20V VDS, 2.5VGS, 78mOhm, 3.3A N-Channel MOSFET and 316mOhm, 1.7A P-Channel MOSFET</description>
+<description>20VDS, 2.5VGS, 78mOhm, 3.3A N-Channel MOSFET and 316mOhm, 1.7A P-Channel MOSFET</description>
 <gates>
 <gate name="A" symbol="N-MOSFET" x="-2.54" y="10.16"/>
 <gate name="B" symbol="P-MOSFET" x="-2.54" y="-10.16" swaplevel="1"/>
@@ -482,7 +558,7 @@
 </devices>
 </deviceset>
 <deviceset name="SI3590DV" prefix="Q">
-<description>30V VDS, 2.5VGS, 120mOhm, 2A N-Channel MOSFET and 300mOhm, 1.2A P-Channel MOSFET</description>
+<description>30VDS, 2.5VGS, 120mOhm, 2A N-Channel MOSFET and 300mOhm, 1.2A P-Channel MOSFET</description>
 <gates>
 <gate name="A" symbol="N-MOSFET" x="-2.54" y="10.16"/>
 <gate name="B" symbol="P-MOSFET" x="-2.54" y="-10.16" swaplevel="1"/>
@@ -504,7 +580,7 @@
 </devices>
 </deviceset>
 <deviceset name="BS170" prefix="Q">
-<description>60V VDS, 10VGS, 5Ohm, 500mA N-Channel Small-Signal MOSFET</description>
+<description>60VDS, 10VGS, 5Ohm, 500mA N-Channel Small-Signal MOSFET</description>
 <gates>
 <gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
 </gates>
@@ -522,7 +598,7 @@
 </devices>
 </deviceset>
 <deviceset name="DMN32D4SDW" prefix="Q">
-<description>Dual 30V VDS, 4.5VGS, 700mOhm, 520mA N-Channel MOSFETs</description>
+<description>Dual 30VDS, 4.5VGS, 700mOhm, 520mA N-Channel MOSFETs</description>
 <gates>
 <gate name="A" symbol="N-MOSFET" x="-2.54" y="10.16"/>
 <gate name="B" symbol="N-MOSFET" x="-2.54" y="-10.16" swaplevel="1"/>
@@ -544,7 +620,7 @@
 </devices>
 </deviceset>
 <deviceset name="SI3456BDV" prefix="Q">
-<description>30V VDS, 4.5VGS, 52mOhm, 4.9A N-Channel MOSFET</description>
+<description>30VDS, 4.5VGS, 52mOhm, 4.9A N-Channel MOSFET</description>
 <gates>
 <gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
 </gates>
@@ -562,7 +638,7 @@
 </devices>
 </deviceset>
 <deviceset name="SI3443BDV" prefix="Q">
-<description>20V VDS, 2.5VGS, 100mOhm, 3.7A P-Channel MOSFET</description>
+<description>20VDS, 2.5VGS, 100mOhm, 3.7A P-Channel MOSFET</description>
 <gates>
 <gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
 </gates>
@@ -572,6 +648,24 @@
 <connect gate="G$1" pin="D" pad="1 2 5 6"/>
 <connect gate="G$1" pin="G" pad="3"/>
 <connect gate="G$1" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IPD50R380CE" prefix="Q">
+<description>500VDS, 13VGS, 380mOhm, 14.1A N-Channel MOSFET</description>
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-252AA">
+<connects>
+<connect gate="G$1" pin="D" pad="4"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

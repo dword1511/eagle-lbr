@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1107,48 +1107,6 @@
 <text x="-12.7" y="11.43" size="1.778" layer="95">&gt;NAME</text>
 <text x="5.08" y="11.43" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="BP2832K">
-<pin name="GND" x="12.7" y="-2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="TEST" x="-12.7" y="0" visible="pin" length="short" direction="pwr"/>
-<pin name="NC" x="-12.7" y="-2.54" visible="pin" length="short" direction="nc"/>
-<pin name="VCC" x="-12.7" y="2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="D" x="12.7" y="2.54" visible="pin" length="short" direction="sup" rot="R180"/>
-<pin name="CS" x="12.7" y="0" visible="pin" length="short" direction="pwr" rot="R180"/>
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<text x="-9.906" y="5.588" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="5.588" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="BP2325A">
-<pin name="VGND" x="12.7" y="-2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="FB" x="12.7" y="2.54" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="COMP" x="-12.7" y="-2.54" visible="pin" length="short" direction="out"/>
-<pin name="VCC" x="-12.7" y="0" visible="pin" length="short" direction="pwr"/>
-<pin name="D" x="-12.7" y="2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="CS" x="12.7" y="0" visible="pin" length="short" direction="sup" rot="R180"/>
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<text x="-9.906" y="5.588" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="5.588" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="BP2832A">
-<pin name="GND" x="12.7" y="-2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="ROVP" x="-12.7" y="0" visible="pin" length="short" direction="out"/>
-<pin name="NC" x="-12.7" y="-2.54" visible="pin" length="short" direction="nc"/>
-<pin name="VCC" x="-12.7" y="2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="D" x="12.7" y="2.54" visible="pin" length="short" direction="sup" rot="R180"/>
-<pin name="CS" x="12.7" y="0" visible="pin" length="short" direction="pwr" rot="R180"/>
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<text x="-9.906" y="5.588" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="5.588" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AU6433" prefix="U">
@@ -1389,71 +1347,6 @@
 <connect gate="G$1" pin="UTX" pad="6"/>
 <connect gate="G$1" pin="VDD" pad="1"/>
 <connect gate="G$1" pin="VSS" pad="14"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="A"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BP2832K" prefix="U">
-<description>Non-isolated Buck Offline LED Driver</description>
-<gates>
-<gate name="G$1" symbol="BP2832K" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOIC-8">
-<connects>
-<connect gate="G$1" pin="CS" pad="7 8"/>
-<connect gate="G$1" pin="D" pad="5 6"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="NC" pad="3"/>
-<connect gate="G$1" pin="TEST" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BP2832" prefix="U">
-<description>Non-isolated Buck Offline LED Driver</description>
-<gates>
-<gate name="G$1" symbol="BP2832A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOIC-8">
-<connects>
-<connect gate="G$1" pin="CS" pad="7 8"/>
-<connect gate="G$1" pin="D" pad="5 6"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="NC" pad="3"/>
-<connect gate="G$1" pin="ROVP" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-<technology name="A"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BP2325" prefix="U">
-<description>Non-isolated Buck Offline LED Driver</description>
-<gates>
-<gate name="G$1" symbol="BP2325A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOIC-8">
-<connects>
-<connect gate="G$1" pin="COMP" pad="1"/>
-<connect gate="G$1" pin="CS" pad="7 8"/>
-<connect gate="G$1" pin="D" pad="5 6"/>
-<connect gate="G$1" pin="FB" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-<connect gate="G$1" pin="VGND" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -59,7 +59,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -364,10 +364,10 @@
 <rectangle x1="-7.12" y1="-0.45" x2="-5.92" y2="0.75" layer="94"/>
 <pin name="D+" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
 <pin name="D-" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="VBUS" x="10.16" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="GND" x="10.16" y="-2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="S" x="-7.62" y="-7.62" visible="pin" length="short" direction="pwr" rot="R90"/>
-<pin name="S@1" x="-5.08" y="-7.62" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="VBUS" x="10.16" y="5.08" visible="pin" length="short" direction="sup" rot="R180"/>
+<pin name="GND" x="10.16" y="-2.54" visible="pin" length="short" direction="sup" rot="R180"/>
+<pin name="S" x="-7.62" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>
+<pin name="S@1" x="-5.08" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="USB-5PIN">
 <wire x1="7.62" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>

@@ -1230,6 +1230,44 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="HV9961" prefix="U">
+<description>Wide-input Buck LED driver with external FET switch</description>
+<gates>
+<gate name="G$1" symbol="HV9910" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LG" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="GATE" pad="4"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="LIND" pad="7"/>
+<connect gate="G$1" pin="PWMD" pad="5"/>
+<connect gate="G$1" pin="ROSC" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NG" package="SOIC-16">
+<connects>
+<connect gate="G$1" pin="CS" pad="4"/>
+<connect gate="G$1" pin="GATE" pad="8"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="LIND" pad="13"/>
+<connect gate="G$1" pin="PWMD" pad="9"/>
+<connect gate="G$1" pin="ROSC" pad="14"/>
+<connect gate="G$1" pin="VDD" pad="12"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

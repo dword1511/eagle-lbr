@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -45,7 +45,7 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="6" fill="11" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="14" fill="4" visible="yes" active="yes"/>
@@ -66,58 +66,6 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="ATT_MISO" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="centerline" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="prix" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="test" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -126,21 +74,8 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <description>LEDs, PDs, Photo-couplers, etc.</description>
@@ -178,11 +113,15 @@
 <wire x1="-2.16" y1="2.32" x2="-2.16" y2="-2.32" width="0.2032" layer="21"/>
 <pad name="A" x="0" y="2.55" drill="0.8" shape="square"/>
 <pad name="C" x="0" y="-2.55" drill="0.8"/>
-<wire x1="-0.115" y1="-2.75" x2="-1.25" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-0.889" y1="-2.75" x2="-1.25" y2="-2.75" width="0.2032" layer="21"/>
 <text x="0.1016" y="1.2286" size="1.016" layer="21" font="vector" ratio="15" align="center">A</text>
 <text x="0.1016" y="-1.2032" size="1.016" layer="21" font="vector" ratio="15" align="center">C</text>
-<text x="-3.175" y="0" size="1.27" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
-<text x="3.175" y="0" size="1.27" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
+<text x="-2.54" y="-1.905" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-1.905" size="0.8128" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="-0.115" y1="-2.75" x2="-1.25" y2="-2.75" width="0.2032" layer="51"/>
+<rectangle x1="-0.254" y1="-2.794" x2="0.254" y2="-2.286" layer="51"/>
+<rectangle x1="-0.254" y1="2.286" x2="0.254" y2="2.794" layer="51"/>
+<rectangle x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" layer="51"/>
 </package>
 <package name="VBPW34">
 <wire x1="-2.16" y1="-2.32" x2="2.16" y2="-2.32" width="0.2032" layer="21"/>
@@ -191,10 +130,13 @@
 <wire x1="-2.16" y1="2.32" x2="-2.16" y2="-2.32" width="0.2032" layer="21"/>
 <text x="0.1016" y="1.2286" size="1.016" layer="21" font="vector" ratio="15" align="center">A</text>
 <text x="0.1016" y="-1.2032" size="1.016" layer="21" font="vector" ratio="15" align="center">C</text>
-<text x="-3.175" y="0" size="1.27" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
-<text x="3.175" y="0" size="1.27" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
+<text x="-2.54" y="-1.905" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-1.905" size="0.8128" layer="27" font="vector" rot="R90">&gt;VALUE</text>
 <smd name="A" x="0" y="3.048" dx="1.27" dy="1.27" layer="1"/>
 <smd name="C" x="0" y="-3.048" dx="1.9304" dy="1.27" layer="1"/>
+<rectangle x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" layer="51"/>
+<rectangle x1="-0.381" y1="2.286" x2="0.381" y2="3.175" layer="51"/>
+<rectangle x1="-0.635" y1="-3.175" x2="0.635" y2="-2.286" layer="51"/>
 </package>
 <package name="PC33-DOT">
 <smd name="K" x="-1.2" y="0" dx="2.4" dy="2.6" layer="1"/>
@@ -266,6 +208,116 @@
 <wire x1="-1.3" y1="2" x2="1.3" y2="2" width="0.127" layer="51"/>
 <wire x1="1.3" y1="2" x2="1.3" y2="-2" width="0.127" layer="51"/>
 <wire x1="1.3" y1="-2" x2="-1.3" y2="-2" width="0.127" layer="51"/>
+</package>
+<package name="BPW34-EDGE">
+<wire x1="-2.795" y1="-2.32" x2="-4.19" y2="-2.32" width="0.2032" layer="21"/>
+<wire x1="-4.19" y1="-2.32" x2="-4.19" y2="2.32" width="0.2032" layer="21"/>
+<wire x1="-4.19" y1="2.32" x2="-2.795" y2="2.32" width="0.2032" layer="21"/>
+<wire x1="-2.795" y1="2.32" x2="-2.795" y2="-2.32" width="0.2032" layer="21"/>
+<wire x1="-2.02" y1="-2.115" x2="-2.52" y2="-2.115" width="0.2032" layer="21"/>
+<text x="-1.1684" y="1.2286" size="1.016" layer="21" font="vector" ratio="15" align="center">A</text>
+<text x="-1.1684" y="-1.2032" size="1.016" layer="21" font="vector" ratio="15" align="center">C</text>
+<text x="1.27" y="0" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="1.27" y="-1.27" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<smd name="A" x="0" y="2.54" dx="3.048" dy="1.27" layer="1"/>
+<smd name="C" x="0" y="-2.54" dx="3.048" dy="1.27" layer="1"/>
+<wire x1="-1.905" y1="-2.54" x2="-3.175" y2="-2.54" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.254" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="0.635" y2="2.54" width="0.254" layer="51"/>
+<wire x1="-1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.254" layer="51"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="51"/>
+</package>
+<package name="LED-3MM">
+<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-1.1708" y2="0.9756" width="0.1524" layer="51" curve="-39.80361"/>
+<wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208"/>
+<wire x1="1.1571" y1="0.9918" x2="1.524" y2="0" width="0.1524" layer="51" curve="-40.601165"/>
+<wire x1="1.1708" y1="-0.9756" x2="1.524" y2="0" width="0.1524" layer="51" curve="39.80361"/>
+<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.1524" layer="21" curve="-54.461337"/>
+<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.1524" layer="21" curve="-53.130102"/>
+<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.1524" layer="21" curve="52.126876"/>
+<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876"/>
+<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108"/>
+<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949"/>
+<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022"/>
+<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215"/>
+<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701"/>
+<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="2.54" y="0.381" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.54" y="-1.016" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="LED-5MM">
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="3.175" y="-0.1016" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.2004" y="-1.1684" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="LED-3MM-EDGE">
+<text x="2.055" y="0.125" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="2.035" y="-0.95" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-3.6625" y1="1.45" x2="-5.9875" y2="1.45" width="0.1" layer="21"/>
+<wire x1="-5.9875" y1="1.45" x2="-5.9875" y2="-1.45" width="0.1" layer="21" curve="180"/>
+<wire x1="-5.9875" y1="-1.45" x2="-3.6625" y2="-1.45" width="0.1" layer="21"/>
+<wire x1="-3.6625" y1="1.45" x2="-3.6625" y2="-1.55" width="0.1" layer="21"/>
+<wire x1="-3.6625" y1="-1.55" x2="-2.6625" y2="-1.55" width="0.1" layer="21"/>
+<wire x1="-2.6625" y1="-1.55" x2="-2.6625" y2="1.45" width="0.1" layer="21"/>
+<wire x1="-2.6625" y1="1.45" x2="-3.6625" y2="1.45" width="0.1" layer="21"/>
+<wire x1="-1.8725" y1="1.52" x2="-2.1025" y2="1.52" width="0.1" layer="21"/>
+<wire x1="-2.1025" y1="1.52" x2="-2.4225" y2="1.32" width="0.1" layer="21"/>
+<wire x1="-2.4225" y1="1.32" x2="-2.5425" y2="1.32" width="0.1" layer="21"/>
+<wire x1="-2.5825" y1="1.36" x2="-2.5825" y2="0.44" width="0.1" layer="21" curve="-76.836111"/>
+<wire x1="-2.6225" y1="0.44" x2="-2.1025" y2="0.44" width="0.1" layer="21"/>
+<wire x1="-2.1025" y1="0.44" x2="-2.1025" y2="0.88" width="0.1" layer="21"/>
+<wire x1="-2.1025" y1="0.88" x2="-1.9425" y2="1.04" width="0.1" layer="21" curve="-90"/>
+<wire x1="-1.9425" y1="1.04" x2="-1.8725" y2="1.04" width="0.1" layer="21"/>
+<wire x1="-1.8725" y1="1.04" x2="0.8425" y2="1.04" width="0.1" layer="51"/>
+<wire x1="-1.8725" y1="1.52" x2="0.8425" y2="1.52" width="0.1" layer="51"/>
+<wire x1="-2.6225" y1="-0.36" x2="-2.6225" y2="-1.32" width="0.1" layer="21" curve="-90.47946"/>
+<wire x1="-2.6225" y1="-0.36" x2="-2.1025" y2="-0.36" width="0.1" layer="21"/>
+<wire x1="-2.1025" y1="-0.36" x2="-2.1025" y2="-0.84" width="0.1" layer="21"/>
+<wire x1="-2.1025" y1="-0.84" x2="-1.9425" y2="-1" width="0.1" layer="21" curve="90"/>
+<wire x1="-1.9425" y1="-1" x2="-1.8725" y2="-1" width="0.1" layer="21"/>
+<wire x1="-1.8725" y1="-1" x2="0.8425" y2="-1" width="0.1" layer="51"/>
+<wire x1="0.8425" y1="-1" x2="0.8425" y2="-1.48" width="0.1" layer="51"/>
+<wire x1="0.8425" y1="-1.48" x2="-1.8725" y2="-1.48" width="0.1" layer="51"/>
+<wire x1="-1.8725" y1="-1.48" x2="-2.1025" y2="-1.48" width="0.1" layer="21"/>
+<wire x1="-2.1025" y1="-1.48" x2="-2.5025" y2="-1.24" width="0.1" layer="21"/>
+<wire x1="0.8425" y1="1.52" x2="0.8425" y2="1.04" width="0.1" layer="51"/>
+<dimension x1="0" y1="-2.1" x2="-7.5" y2="-2.1" x3="-3.75" y3="-2.8" textsize="0.8" layer="47" dtype="horizontal" width="0.05" extwidth="0.01" visible="yes"/>
+<smd name="K" x="0" y="1.27" dx="3.048" dy="1.524" layer="1"/>
+<smd name="A" x="0" y="-1.27" dx="3.048" dy="1.524" layer="1"/>
+</package>
+<package name="LED-5MM-EDGE">
+<wire x1="-3.4514625" y1="2.504584375" x2="-8.489640625" y2="2.504584375" width="0.1" layer="21"/>
+<wire x1="-8.489640625" y1="2.504584375" x2="-8.489640625" y2="-2.48091875" width="0.1" layer="21" curve="180"/>
+<wire x1="-8.489640625" y1="-2.48091875" x2="-3.4514625" y2="-2.48091875" width="0.1" layer="21"/>
+<wire x1="-3.4514625" y1="-2.48091875" x2="-3.4514625" y2="2.504584375" width="0.1" layer="21"/>
+<wire x1="-3.4514625" y1="2.504584375" x2="-2.459096875" y2="2.504584375" width="0.1" layer="21"/>
+<wire x1="-2.459096875" y1="2.504584375" x2="-2.459096875" y2="-2.85" width="0.1" layer="21"/>
+<wire x1="-2.459096875" y1="-2.85" x2="-3.4514625" y2="-2.85" width="0.1" layer="21"/>
+<wire x1="-3.4514625" y1="-2.85" x2="-3.4514625" y2="-2.48091875" width="0.1" layer="21"/>
+<wire x1="-2.420928125" y1="2.504584375" x2="-2.420928125" y2="0.1" width="0.1" layer="21" curve="-57.013088"/>
+<wire x1="-2.420928125" y1="-0.0763375" x2="-2.420928125" y2="-2.480921875" width="0.1" layer="21" curve="-57.013088"/>
+<wire x1="-2.09191875" y1="-1.5709" x2="-1.754815625" y2="-1.5709" width="0.1" layer="21"/>
+<wire x1="-1.754815625" y1="-1.5709" x2="0.885" y2="-1.5709" width="0.1" layer="51"/>
+<wire x1="0.885" y1="-1.5709" x2="0.885" y2="-0.9602125" width="0.1" layer="51"/>
+<wire x1="-2.077415625" y1="-0.9602125" x2="-1.754815625" y2="-0.9602125" width="0.1" layer="21"/>
+<wire x1="-1.754815625" y1="-0.9602125" x2="0.885" y2="-0.9602125" width="0.1" layer="51"/>
+<wire x1="-2.078753125" y1="1.5695625" x2="-1.754815625" y2="1.5695625" width="0.1" layer="21"/>
+<wire x1="-1.754815625" y1="1.5695625" x2="0.885" y2="1.5695625" width="0.1" layer="51"/>
+<wire x1="0.885" y1="1.5695625" x2="0.885" y2="0.99704375" width="0.1" layer="51"/>
+<wire x1="-2.077415625" y1="0.99704375" x2="-1.754815625" y2="0.99704375" width="0.1" layer="21"/>
+<wire x1="-1.754815625" y1="0.99704375" x2="0.885" y2="0.99704375" width="0.1" layer="51"/>
+<text x="1.97" y="0.21" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="1.97" y="-0.69" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<dimension x1="-6" y1="-3" x2="0" y2="-2.75" x3="-3" y3="-4.75" textsize="1.27" layer="47" dtype="horizontal" width="0.05" extwidth="0.01" visible="yes"/>
+<smd name="K" x="0" y="1.27" dx="3.048" dy="1.524" layer="1"/>
+<smd name="A" x="0" y="-1.27" dx="3.048" dy="1.524" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -460,6 +512,15 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="-EDGE" package="BPW34-EDGE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="VBPW34" prefix="D">
@@ -605,6 +666,58 @@
 <connect gate="G$1" pin="LK" pad="1"/>
 <connect gate="G$1" pin="NC" pad="8"/>
 <connect gate="G$1" pin="NC@1" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PD333" prefix="D">
+<description>5mm Silicon PIN Photodiode, T-1 3/4</description>
+<gates>
+<gate name="G$1" symbol="PD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED-5MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-EDGE" package="LED-5MM-EDGE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BPV10" prefix="D">
+<description>Silicon PIN Photodiode</description>
+<gates>
+<gate name="G$1" symbol="PD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED-5MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-EDGE" package="LED-5MM-EDGE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
 </connects>
 <technologies>
 <technology name=""/>

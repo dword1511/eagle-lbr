@@ -1268,6 +1268,29 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="MP1482DS" prefix="U">
+<description>2A, 18V Synchronous Rectified Step-Down Converter</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-DC-DC-SYNC-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="BS" pad="1"/>
+<connect gate="G$1" pin="COMP" pad="6"/>
+<connect gate="G$1" pin="EN" pad="7"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="SS" pad="8"/>
+<connect gate="G$1" pin="SW" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

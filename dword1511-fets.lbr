@@ -139,7 +139,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>MOSFETs, JFETs, etc., Single and Arrays.</description>
+<description>MOSFETs, JFETs, etc., Single and Arrays. Enhancement mode by default.</description>
 <packages>
 <package name="POWER-SO8">
 <description>Aka: LFPAK56, SOT669</description>
@@ -382,6 +382,25 @@
 <rectangle x1="1.8288" y1="-8.1534" x2="3.2512" y2="-6.731" layer="51"/>
 <rectangle x1="1.8288" y1="-6.731" x2="3.2512" y2="-4.2418" layer="21"/>
 <rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
+</package>
+<package name="SOT-23-3">
+<wire x1="1.27" y1="0.7294" x2="1.27" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="-0.4294" x2="-1.27" y2="0.7294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.2684" y1="-0.7088" x2="0.2684" y2="-0.7088" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<text x="-2.159" y="-2.159" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="2.7305" y="-2.2225" size="0.8128" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="-0.5706" y1="0.73" x2="-1.2294" y2="0.73" width="0.2032" layer="21"/>
+<wire x1="1.2294" y1="0.73" x2="0.5706" y2="0.73" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -666,6 +685,24 @@
 <connect gate="G$1" pin="D" pad="4"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSH205" prefix="Q">
+<description>12VDS, 1.8VGS, 420mOhm, 750mA P-Channel Very Low Threshold MOSFET</description>
+<gates>
+<gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

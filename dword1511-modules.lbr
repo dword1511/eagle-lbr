@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -62,9 +62,6 @@
 <library>
 <packages>
 <package name="CSR8645-F-3188">
-<wire x1="-6.75" y1="12.5" x2="6.75" y2="12.5" width="0.254" layer="21"/>
-<wire x1="6.75" y1="12.5" x2="6.75" y2="7.82" width="0.254" layer="21"/>
-<wire x1="-6.75" y1="7.82" x2="-6.75" y2="12.5" width="0.254" layer="21"/>
 <smd name="P$1" x="-6.75" y="7.1" dx="1.27" dy="0.8" layer="1"/>
 <smd name="P$2" x="-6.75" y="6" dx="1.27" dy="0.8" layer="1"/>
 <smd name="P$3" x="-6.75" y="4.9" dx="1.27" dy="0.8" layer="1"/>
@@ -138,6 +135,80 @@
 <wire x1="-5.461" y1="-12.5" x2="-6.75" y2="-12.5" width="0.254" layer="21"/>
 <wire x1="6.75" y1="-12.5" x2="5.461" y2="-12.5" width="0.254" layer="21"/>
 </package>
+<package name="CSRA64215-SJR-BTM625">
+<smd name="P$1" x="-6.5" y="6.75" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$2" x="-6.5" y="5.45" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$3" x="-6.5" y="4.15" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$4" x="-6.5" y="2.85" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$5" x="-6.5" y="1.55" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$6" x="-6.5" y="0.25" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$7" x="-6.5" y="-1.05" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$8" x="-6.5" y="-2.35" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$9" x="-6.5" y="-3.65" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$10" x="-6.5" y="-4.95" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$11" x="-6.5" y="-6.25" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$12" x="-6.5" y="-7.55" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$13" x="-6.5" y="-8.85" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$14" x="-6.5" y="-10.15" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$15" x="-6.5" y="-11.45" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$16" x="-6.5" y="-12.75" dx="1.27" dy="0.8" layer="1"/>
+<smd name="P$17" x="-4.5" y="-14.25" dx="1.27" dy="0.8" layer="1" rot="R90"/>
+<rectangle x1="-7" y1="7.5" x2="7" y2="15" layer="43"/>
+<wire x1="-7.5" y1="16" x2="7.5" y2="16" width="0.254" layer="39"/>
+<wire x1="7.5" y1="16" x2="7.5" y2="-15.5" width="0.254" layer="39"/>
+<wire x1="7.5" y1="-15.5" x2="-7.5" y2="-15.5" width="0.254" layer="39"/>
+<wire x1="-7.5" y1="-15.5" x2="-7.5" y2="16" width="0.254" layer="39"/>
+<smd name="P$18" x="-3.2" y="-14.25" dx="1.27" dy="0.8" layer="1" rot="R90"/>
+<text x="-6.365" y="14.865" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-5" y="-1.365" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<smd name="P$19" x="-1.9" y="-14.25" dx="1.27" dy="0.8" layer="1" rot="R90"/>
+<smd name="P$20" x="-0.65" y="-14.25" dx="1.27" dy="0.8" layer="1" rot="R90"/>
+<smd name="P$21" x="0.65" y="-14.25" dx="1.27" dy="0.8" layer="1" rot="R90"/>
+<smd name="P$22" x="1.9" y="-14.25" dx="1.27" dy="0.8" layer="1" rot="R90"/>
+<smd name="P$23" x="3.2" y="-14.25" dx="1.27" dy="0.8" layer="1" rot="R90"/>
+<smd name="P$24" x="4.5" y="-14.25" dx="1.27" dy="0.8" layer="1" rot="R90"/>
+<smd name="P$25" x="6.5" y="-12.75" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$26" x="6.5" y="-11.45" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$27" x="6.5" y="-10.15" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$28" x="6.5" y="-8.85" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$29" x="6.5" y="-7.55" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$30" x="6.5" y="-6.25" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$31" x="6.5" y="-4.95" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$32" x="6.5" y="-3.65" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$33" x="6.5" y="-2.35" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$34" x="6.5" y="-1.05" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$35" x="6.5" y="0.25" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$36" x="6.5" y="1.55" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$37" x="6.5" y="2.85" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$38" x="6.5" y="4.15" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$39" x="6.5" y="5.45" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<smd name="P$40" x="6.5" y="6.75" dx="1.27" dy="0.8" layer="1" rot="R180"/>
+<wire x1="-6.5" y1="14.25" x2="6.5" y2="14.25" width="0.254" layer="51"/>
+<wire x1="6.5" y1="14.25" x2="6.5" y2="-14.25" width="0.254" layer="51"/>
+<wire x1="6.5" y1="-14.25" x2="-6.5" y2="-14.25" width="0.254" layer="51"/>
+<wire x1="-6.5" y1="-14.25" x2="-6.5" y2="14.25" width="0.254" layer="51"/>
+<circle x="-5" y="8" radius="0.5" width="0" layer="51"/>
+<rectangle x1="-7" y1="-14.5" x2="-5.5" y2="-13.5" layer="21"/>
+<rectangle x1="5.5" y1="-14.5" x2="7" y2="-13.5" layer="21"/>
+<wire x1="5" y1="8" x2="5" y2="13" width="0.3048" layer="51"/>
+<wire x1="5" y1="13" x2="4" y2="13" width="0.3048" layer="51"/>
+<wire x1="4" y1="13" x2="4" y2="9" width="0.3048" layer="51"/>
+<wire x1="4" y1="9" x2="3" y2="9" width="0.3048" layer="51"/>
+<wire x1="3" y1="9" x2="3" y2="13" width="0.3048" layer="51"/>
+<wire x1="3" y1="13" x2="2" y2="13" width="0.3048" layer="51"/>
+<wire x1="2" y1="13" x2="2" y2="9" width="0.3048" layer="51"/>
+<wire x1="2" y1="9" x2="1" y2="9" width="0.3048" layer="51"/>
+<wire x1="1" y1="9" x2="1" y2="13" width="0.3048" layer="51"/>
+<wire x1="1" y1="13" x2="0" y2="13" width="0.3048" layer="51"/>
+<wire x1="0" y1="13" x2="0" y2="9" width="0.3048" layer="51"/>
+<wire x1="0" y1="9" x2="-1" y2="9" width="0.3048" layer="51"/>
+<wire x1="-1" y1="9" x2="-1" y2="13" width="0.3048" layer="51"/>
+<wire x1="-1" y1="13" x2="-2" y2="13" width="0.3048" layer="51"/>
+<wire x1="-2" y1="13" x2="-2" y2="9" width="0.3048" layer="51"/>
+<wire x1="-2" y1="9" x2="-3" y2="9" width="0.3048" layer="51"/>
+<wire x1="-3" y1="9" x2="-3" y2="13" width="0.3048" layer="51"/>
+<wire x1="-3" y1="13" x2="-6" y2="13" width="0.3048" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CSR8645-F-3188">
@@ -154,7 +225,7 @@
 <wire x1="35.56" y1="33.02" x2="-35.56" y2="33.02" width="0.254" layer="94"/>
 <wire x1="-35.56" y1="33.02" x2="-35.56" y2="-38.1" width="0.254" layer="94"/>
 <text x="-35.56" y="34.29" size="1.778" layer="95">&gt;NAME</text>
-<text x="22.86" y="34.29" size="1.778" layer="96">&gt;VALUE</text>
+<text x="10.16" y="34.29" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="SPI/!PCM!" x="-38.1" y="10.16" visible="pin" length="short" direction="in"/>
 <pin name="PIO0/UART_TX" x="-38.1" y="5.08" visible="pin" length="short"/>
 <pin name="PIO1/UART_RX" x="-38.1" y="2.54" visible="pin" length="short"/>
@@ -190,6 +261,54 @@
 <pin name="SPK_L_N" x="38.1" y="25.4" visible="pin" length="short" direction="out" rot="R180"/>
 <pin name="SPK_L_P" x="38.1" y="27.94" visible="pin" length="short" direction="out" rot="R180"/>
 <pin name="AGND" x="5.08" y="-40.64" visible="pin" length="short" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="CSRA64215-SJR-BTM625">
+<pin name="LED2" x="-33.02" y="25.4" visible="pin" length="short" direction="oc"/>
+<pin name="LED1" x="-33.02" y="27.94" visible="pin" length="short" direction="oc"/>
+<pin name="LED0" x="-33.02" y="30.48" visible="pin" length="short" direction="oc"/>
+<pin name="AIO0/BAT_NTC" x="-33.02" y="-17.78" visible="pin" length="short"/>
+<pin name="PIO3/SPI_MISO/PCM1_DOUT/I2S1_OUT" x="-33.02" y="20.32" visible="pin" length="short"/>
+<pin name="PIO4/SPI_CS/PCM1_SYNC/I2S1_WS" x="-33.02" y="17.78" visible="pin" length="short"/>
+<pin name="PIO5/SPI_SCK/PCM1_CLK/I2S1_SCK" x="-33.02" y="15.24" visible="pin" length="short"/>
+<pin name="PIO2/SPI_MOSI/PCM1_DIN/I2S1_IN/SPDIF_IN" x="-33.02" y="12.7" visible="pin" length="short"/>
+<wire x1="-30.48" y1="-30.48" x2="30.48" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-30.48" x2="30.48" y2="33.02" width="0.254" layer="94"/>
+<wire x1="30.48" y1="33.02" x2="-30.48" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="33.02" x2="-30.48" y2="-30.48" width="0.254" layer="94"/>
+<text x="-30.48" y="34.29" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="34.29" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="SPI/!PCM!" x="-33.02" y="7.62" visible="pin" length="short" direction="in"/>
+<pin name="PIO0" x="33.02" y="-27.94" visible="pin" length="short" rot="R180"/>
+<pin name="PIO1" x="33.02" y="-25.4" visible="pin" length="short" rot="R180"/>
+<pin name="VBUS" x="-33.02" y="-12.7" visible="pin" length="short" direction="pwr"/>
+<pin name="!RST!" x="-33.02" y="-7.62" visible="pin" length="short" direction="in" function="dot"/>
+<pin name="VBAT" x="-33.02" y="-15.24" visible="pin" length="short" direction="pwr"/>
+<pin name="MFB/VREG_EN" x="-33.02" y="-5.08" visible="pin" length="short" direction="in"/>
+<pin name="1V8" x="-33.02" y="-22.86" visible="pin" length="short" direction="sup"/>
+<pin name="GND@17" x="-10.16" y="-33.02" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="USB_DN" x="-33.02" y="2.54" visible="pin" length="short"/>
+<pin name="USB_DP" x="-33.02" y="0" visible="pin" length="short"/>
+<pin name="PIO9" x="33.02" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="PIO6" x="33.02" y="-22.86" visible="pin" length="short" rot="R180"/>
+<pin name="PIO7" x="33.02" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="PIO8" x="33.02" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="PIO17" x="33.02" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="PIO16" x="33.02" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="PIO18" x="33.02" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="PIO21" x="33.02" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="MIC_BIAS" x="33.02" y="0" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="MIC_AN" x="33.02" y="5.08" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="MIC_AP" x="33.02" y="7.62" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="MIC_BN" x="33.02" y="12.7" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="MIC_BP" x="33.02" y="15.24" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="SPK_R_N" x="33.02" y="20.32" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="SPK_R_P" x="33.02" y="22.86" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="SPK_L_N" x="33.02" y="27.94" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="SPK_L_P" x="33.02" y="30.48" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="GND@40" x="-5.08" y="-33.02" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@26" x="-7.62" y="-33.02" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="NC@12" x="7.62" y="-33.02" visible="pin" length="short" direction="nc" rot="R90"/>
+<pin name="NC@13" x="10.16" y="-33.02" visible="pin" length="short" direction="nc" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -244,6 +363,61 @@
 <connect gate="G$1" pin="USB_DN" pad="P$24"/>
 <connect gate="G$1" pin="USB_DP" pad="P$25"/>
 <connect gate="G$1" pin="VBUS" pad="P$12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CSRA64215-SJR-BTM625" prefix="U">
+<description>SJR-BTM625 CSRA64215-based Bluetooth Module</description>
+<gates>
+<gate name="G$1" symbol="CSRA64215-SJR-BTM625" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CSRA64215-SJR-BTM625">
+<connects>
+<connect gate="G$1" pin="!RST!" pad="P$20"/>
+<connect gate="G$1" pin="1V8" pad="P$10"/>
+<connect gate="G$1" pin="AIO0/BAT_NTC" pad="P$6"/>
+<connect gate="G$1" pin="GND@17" pad="P$17"/>
+<connect gate="G$1" pin="GND@26" pad="P$26"/>
+<connect gate="G$1" pin="GND@40" pad="P$40"/>
+<connect gate="G$1" pin="LED0" pad="P$28"/>
+<connect gate="G$1" pin="LED1" pad="P$5"/>
+<connect gate="G$1" pin="LED2" pad="P$29"/>
+<connect gate="G$1" pin="MFB/VREG_EN" pad="P$30"/>
+<connect gate="G$1" pin="MIC_AN" pad="P$35"/>
+<connect gate="G$1" pin="MIC_AP" pad="P$34"/>
+<connect gate="G$1" pin="MIC_BIAS" pad="P$31"/>
+<connect gate="G$1" pin="MIC_BN" pad="P$33"/>
+<connect gate="G$1" pin="MIC_BP" pad="P$32"/>
+<connect gate="G$1" pin="NC@12" pad="P$12"/>
+<connect gate="G$1" pin="NC@13" pad="P$13"/>
+<connect gate="G$1" pin="PIO0" pad="P$4"/>
+<connect gate="G$1" pin="PIO1" pad="P$3"/>
+<connect gate="G$1" pin="PIO16" pad="P$11"/>
+<connect gate="G$1" pin="PIO17" pad="P$7"/>
+<connect gate="G$1" pin="PIO18" pad="P$15"/>
+<connect gate="G$1" pin="PIO2/SPI_MOSI/PCM1_DIN/I2S1_IN/SPDIF_IN" pad="P$21"/>
+<connect gate="G$1" pin="PIO21" pad="P$14"/>
+<connect gate="G$1" pin="PIO3/SPI_MISO/PCM1_DOUT/I2S1_OUT" pad="P$24"/>
+<connect gate="G$1" pin="PIO4/SPI_CS/PCM1_SYNC/I2S1_WS" pad="P$23"/>
+<connect gate="G$1" pin="PIO5/SPI_SCK/PCM1_CLK/I2S1_SCK" pad="P$22"/>
+<connect gate="G$1" pin="PIO6" pad="P$1"/>
+<connect gate="G$1" pin="PIO7" pad="P$9"/>
+<connect gate="G$1" pin="PIO8" pad="P$2"/>
+<connect gate="G$1" pin="PIO9" pad="P$8"/>
+<connect gate="G$1" pin="SPI/!PCM!" pad="P$16"/>
+<connect gate="G$1" pin="SPK_L_N" pad="P$38"/>
+<connect gate="G$1" pin="SPK_L_P" pad="P$39"/>
+<connect gate="G$1" pin="SPK_R_N" pad="P$36"/>
+<connect gate="G$1" pin="SPK_R_P" pad="P$37"/>
+<connect gate="G$1" pin="USB_DN" pad="P$19"/>
+<connect gate="G$1" pin="USB_DP" pad="P$18"/>
+<connect gate="G$1" pin="VBAT" pad="P$27"/>
+<connect gate="G$1" pin="VBUS" pad="P$25"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -226,7 +226,7 @@
 </package>
 <package name="35RASMT4BHNTRX">
 <smd name="1" x="-4.6228" y="-4.318" dx="2.1082" dy="2.1082" layer="1" rot="R90"/>
-<smd name="3" x="4.445" y="-4.318" dx="2.1082" dy="2.1082" layer="1" rot="R90"/>
+<smd name="3" x="4.826" y="-4.318" dx="2.1082" dy="2.1082" layer="1" rot="R90"/>
 <smd name="4" x="-5.461" y="3.9624" dx="2.1082" dy="2.1082" layer="1" rot="R90"/>
 <smd name="2" x="-2.7686" y="3.9624" dx="2.1082" dy="2.1082" layer="1" rot="R90"/>
 <wire x1="-6.985" y1="-3.175" x2="7.5184" y2="-3.175" width="0.127" layer="21"/>

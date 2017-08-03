@@ -355,7 +355,7 @@
 </devices>
 </deviceset>
 <deviceset name="ASTX-H12" prefix="X" uservalue="yes">
-<description>TCXO 3.2x2.5mm</description>
+<description>TCXO 2.5x2.0mm</description>
 <gates>
 <gate name="G$1" symbol="GENERIC-XO-OE" x="0" y="0"/>
 </gates>

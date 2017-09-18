@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -75,7 +75,7 @@
 </layers>
 <library>
 <packages>
-<package name="IFA-2.4G-TI-SWRU120C">
+<package name="TI-SWRU120C">
 <rectangle x1="-15" y1="0" x2="19" y2="7.52" layer="43"/>
 <wire x1="-15" y1="8" x2="19" y2="8" width="0.127" layer="39"/>
 <wire x1="19" y1="8" x2="19" y2="-2" width="0.127" layer="39"/>
@@ -100,6 +100,58 @@
 <smd name="GND$2" x="-1.26" y="-0.5" dx="1.08" dy="3" layer="1" stop="no" thermals="no" cream="no"/>
 <wire x1="-14.9" y1="0" x2="19.1" y2="0" width="0.127" layer="51"/>
 </package>
+<package name="SILABS-AN1088-1.6MM">
+<rectangle x1="-4.8006" y1="0" x2="19.05" y2="9.8044" layer="43"/>
+<wire x1="-5.08" y1="10.16" x2="19.304" y2="10.16" width="0.127" layer="39"/>
+<wire x1="19.304" y1="10.16" x2="19.304" y2="-1.016" width="0.127" layer="39"/>
+<wire x1="-5.08" y1="-1.016" x2="-5.08" y2="10.16" width="0.127" layer="39"/>
+<wire x1="-5.08" y1="10.16" x2="19.304" y2="10.16" width="0.127" layer="40"/>
+<wire x1="19.304" y1="10.16" x2="19.304" y2="-1.016" width="0.127" layer="40"/>
+<wire x1="19.304" y1="-1.016" x2="-5.08" y2="-1.016" width="0.127" layer="40"/>
+<wire x1="-5.08" y1="-1.016" x2="-5.08" y2="10.16" width="0.127" layer="40"/>
+<text x="1.986" y="-1.016" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="6.066" y="-1.016" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<smd name="FEED$1" x="0.508" y="-0.508" dx="0.3556" dy="1.016" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND$1" x="-3.2766" y="-0.508" dx="1.016" dy="1.016" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-6.096" y1="0" x2="20.32" y2="0" width="0.127" layer="51"/>
+<rectangle x1="-3.7846" y1="8.3058" x2="16.0782" y2="9.2964" layer="1"/>
+<rectangle x1="0" y1="0" x2="1.016" y2="8.3058" layer="1"/>
+<rectangle x1="-3.7846" y1="0" x2="-2.7686" y2="8.3058" layer="1"/>
+<wire x1="-5.08" y1="-1.016" x2="19.304" y2="-1.016" width="0.127" layer="39"/>
+<polygon width="0.254" layer="1">
+<vertex x="0.508" y="-0.5588"/>
+<vertex x="0.127" y="0"/>
+<vertex x="0.889" y="0"/>
+</polygon>
+<text x="8.636" y="4.064" size="1.27" layer="51" font="vector" ratio="15" align="center">COVER WITH
+SOLDERMASK</text>
+</package>
+<package name="SILABS-AN1088-0.8MM">
+<rectangle x1="-4.953" y1="0" x2="19.05" y2="9.398" layer="43"/>
+<wire x1="-5.588" y1="9.652" x2="19.304" y2="9.652" width="0.127" layer="39"/>
+<wire x1="19.304" y1="9.652" x2="19.304" y2="-1.016" width="0.127" layer="39"/>
+<wire x1="-5.588" y1="-1.016" x2="-5.588" y2="9.652" width="0.127" layer="39"/>
+<wire x1="-5.588" y1="9.652" x2="19.304" y2="9.652" width="0.127" layer="40"/>
+<wire x1="19.304" y1="9.652" x2="19.304" y2="-1.016" width="0.127" layer="40"/>
+<wire x1="19.304" y1="-1.016" x2="-5.588" y2="-1.016" width="0.127" layer="40"/>
+<wire x1="-5.588" y1="-1.016" x2="-5.588" y2="9.652" width="0.127" layer="40"/>
+<text x="1.986" y="-1.016" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="6.066" y="-1.016" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<smd name="FEED$1" x="0.508" y="-0.508" dx="0.3556" dy="1.016" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="GND$1" x="-3.429" y="-0.508" dx="1.016" dy="1.016" layer="1" stop="no" thermals="no" cream="no"/>
+<wire x1="-6.604" y1="0" x2="20.32" y2="0" width="0.127" layer="51"/>
+<rectangle x1="-3.937" y1="7.8994" x2="17.907" y2="8.89" layer="1"/>
+<rectangle x1="0" y1="0" x2="1.016" y2="7.8994" layer="1"/>
+<rectangle x1="-3.937" y1="0" x2="-2.921" y2="7.8994" layer="1"/>
+<wire x1="-5.588" y1="-1.016" x2="19.304" y2="-1.016" width="0.127" layer="39"/>
+<polygon width="0.254" layer="1">
+<vertex x="0.508" y="-0.5588"/>
+<vertex x="0.127" y="0"/>
+<vertex x="0.889" y="0"/>
+</polygon>
+<text x="8.636" y="4.064" size="1.27" layer="51" font="vector" ratio="15" align="center">COVER WITH
+SOLDERMASK</text>
+</package>
 </packages>
 <symbols>
 <symbol name="GENERIC-ANT-GND">
@@ -121,12 +173,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="IFA-2.4G-TI-SWRU120C" prefix="ANT">
+<deviceset name="TI-SWRU120C" prefix="ANT">
+<description>2.4 GHz 3.3 dBi 50 Ohm IFA, TI Application Report SWRU120C, Optimized for 1mm PCB</description>
 <gates>
 <gate name="G$1" symbol="GENERIC-ANT-GND" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="IFA-2.4G-TI-SWRU120C">
+<device name="" package="TI-SWRU120C">
 <connects>
 <connect gate="G$1" pin="FEED" pad="FEED$1"/>
 <connect gate="G$1" pin="GND" pad="GND$1 GND$2"/>
@@ -137,7 +190,39 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="SILABS-AN1088" prefix="ANT">
+<description>2.4 GHz 1.4 dBi 50 Ohm IFA, SiLabs AN1088, Optimized for 1.6/0.8mm 4-layer PCBs</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-ANT-GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0.8" package="SILABS-AN1088-0.8MM">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED$1"/>
+<connect gate="G$1" pin="GND" pad="GND$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1.6" package="SILABS-AN1088-1.6MM">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED$1"/>
+<connect gate="G$1" pin="GND" pad="GND$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

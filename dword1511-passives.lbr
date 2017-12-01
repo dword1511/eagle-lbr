@@ -48,8 +48,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="25" fill="4" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="17" fill="5" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="4" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="14" fill="5" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -709,6 +709,34 @@
 <text x="-1.905" y="-2.54" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 <circle x="-2.159" y="1.27" radius="0.1905" width="0" layer="21"/>
 </package>
+<package name="JUMPER-1MM">
+<wire x1="-0.6" y1="0.6" x2="0.6" y2="0.6" width="0.0508" layer="39"/>
+<wire x1="0.6" y1="0.6" x2="0.6" y2="-0.6" width="0.0508" layer="39"/>
+<wire x1="0.6" y1="-0.6" x2="-0.6" y2="-0.6" width="0.0508" layer="39"/>
+<wire x1="-0.6" y1="-0.6" x2="-0.6" y2="0.6" width="0.0508" layer="39"/>
+<smd name="1" x="-0.275" y="0" dx="0.3" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
+<smd name="2" x="0.275" y="0" dx="0.3" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
+<text x="-0.635" y="0.635" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.635" y="-1.505" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<circle x="0" y="0" radius="0.5" width="0.051" layer="51"/>
+<polygon width="0.3048" layer="1">
+<vertex x="-0.23" y="-0.28"/>
+<vertex x="-0.23" y="0.28" curve="50"/>
+<vertex x="-0.35" y="0" curve="50"/>
+</polygon>
+<polygon width="0.3048" layer="1">
+<vertex x="0.23" y="0.28"/>
+<vertex x="0.23" y="-0.28" curve="50"/>
+<vertex x="0.35" y="0" curve="50"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="0" y="0.5" curve="90"/>
+<vertex x="-0.5" y="0" curve="90"/>
+<vertex x="0" y="-0.5" curve="90"/>
+<vertex x="0.5" y="0" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="XTAL">
@@ -861,6 +889,17 @@
 <wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
 <pin name="GND" x="0" y="-5.08" visible="off" length="point" direction="hiz" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="JUMPER">
+<text x="-3.81" y="1.397" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<circle x="-0.762" y="0" radius="0.254" width="0.254" layer="94"/>
+<circle x="0.762" y="0" radius="0.254" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.254" x2="0.762" y2="0.254" width="0.254" layer="94" curve="-180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1207,6 +1246,23 @@
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER" prefix="J" uservalue="yes">
+<description>Printed Jumper for OSH Park (or similar) DRC</description>
+<gates>
+<gate name="G$1" symbol="JUMPER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1MM" package="JUMPER-1MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

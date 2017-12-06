@@ -707,6 +707,61 @@
 <wire x1="-2.2" y1="-1.5" x2="-2.2" y2="1.5" width="0.127" layer="51"/>
 <circle x="-1.6" y="1" radius="0.282840625" width="0.127" layer="51"/>
 </package>
+<package name="TMP00X">
+<wire x1="-1" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
+<wire x1="1" y1="-1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<text x="-0.995" y="1.265" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.065" y="-2.1" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<circle x="1.43" y="-0.595" radius="0.2" width="0" layer="21"/>
+<wire x1="-0.94" y1="0.94" x2="0.94" y2="0.94" width="0.051" layer="51"/>
+<wire x1="0.94" y1="0.94" x2="0.94" y2="-0.94" width="0.051" layer="51"/>
+<wire x1="0.94" y1="-0.94" x2="-0.94" y2="-0.94" width="0.051" layer="51"/>
+<wire x1="-0.94" y1="-0.94" x2="-0.94" y2="0.94" width="0.051" layer="51"/>
+<circle x="0.6" y="-0.6" radius="0.2" width="0" layer="51"/>
+<smd name="A1" x="0.5" y="-0.5" dx="0.3" dy="0.3" layer="1" roundness="100"/>
+<smd name="A2" x="0" y="-0.5" dx="0.3" dy="0.3" layer="1" roundness="100"/>
+<smd name="A3" x="-0.5" y="-0.5" dx="0.3" dy="0.3" layer="1" roundness="100"/>
+<smd name="B1" x="0.5" y="0" dx="0.3" dy="0.3" layer="1" roundness="100"/>
+<smd name="B3" x="-0.5" y="0" dx="0.3" dy="0.3" layer="1" roundness="100"/>
+<smd name="C1" x="0.5" y="0.5" dx="0.3" dy="0.3" layer="1" roundness="100"/>
+<smd name="C2" x="0" y="0.5" dx="0.3" dy="0.3" layer="1" roundness="100"/>
+<smd name="C3" x="-0.5" y="0.5" dx="0.3" dy="0.3" layer="1" roundness="100"/>
+<smd name="B2" x="0" y="0" dx="0.381" dy="0.381" layer="1" roundness="50"/>
+</package>
+<package name="MLX9061X">
+<text x="7.62" y="5.842" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.794" y="-2.54" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<pad name="1" x="0" y="5.08" drill="0.762" shape="octagon"/>
+<pad name="2" x="-5.08" y="0" drill="0.762"/>
+<pad name="3" x="0" y="-5.08" drill="0.762"/>
+<pad name="4" x="5.08" y="0" drill="0.762"/>
+<circle x="0" y="5.08" radius="1.6002" width="0.127" layer="51"/>
+<circle x="-5.08" y="0" radius="1.6002" width="0.127" layer="51"/>
+<circle x="0" y="-5.08" radius="1.6002" width="0.127" layer="51"/>
+<wire x1="6.35" y1="6.858" x2="6.858" y2="7.366" width="0.127" layer="51"/>
+<wire x1="6.858" y1="7.366" x2="7.366" y2="6.858" width="0.127" layer="51"/>
+<wire x1="7.366" y1="6.858" x2="6.858" y2="6.35" width="0.127" layer="51"/>
+<wire x1="6.35" y1="6.858" x2="6.0198" y2="6.858" width="0.127" layer="51" curve="-90"/>
+<wire x1="6.858" y1="6.35" x2="6.858" y2="6.0198" width="0.127" layer="51" curve="90"/>
+<wire x1="6.0198" y1="6.858" x2="6.858" y2="6.0198" width="0.127" layer="51" curve="352.55"/>
+<circle x="0" y="0" radius="9.1186" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="5.6007" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="8.19911875" width="0.127" layer="51"/>
+<wire x1="6.35" y1="6.858" x2="6.0198" y2="6.858" width="0.127" layer="21" curve="-90"/>
+<wire x1="6.858" y1="6.35" x2="6.858" y2="6.0198" width="0.127" layer="21" curve="90"/>
+<wire x1="6.35" y1="6.858" x2="6.858" y2="7.366" width="0.127" layer="21"/>
+<wire x1="6.858" y1="7.366" x2="7.366" y2="6.858" width="0.127" layer="21"/>
+<wire x1="7.366" y1="6.858" x2="6.858" y2="6.35" width="0.127" layer="21"/>
+<circle x="0" y="5.08" radius="1.27" width="0.127" layer="21"/>
+<circle x="-5.08" y="0" radius="1.27" width="0.127" layer="21"/>
+<circle x="0" y="-5.08" radius="1.27" width="0.127" layer="21"/>
+<circle x="5.08" y="0" radius="1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3.556" width="0" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MMA865XFC">
@@ -913,6 +968,21 @@
 <pin name="A0" x="-12.7" y="2.54" length="short" direction="in"/>
 <pin name="A1" x="-12.7" y="0" length="short" direction="in"/>
 <pin name="A2" x="-12.7" y="-2.54" length="short" direction="in"/>
+</symbol>
+<symbol name="TMP00X">
+<pin name="VDD" x="-12.7" y="5.08" length="short" direction="pwr"/>
+<pin name="SCL" x="12.7" y="2.54" length="short" direction="in" function="clk" rot="R180"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="SDA" x="12.7" y="5.08" length="short" direction="oc" rot="R180"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.128" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="8.128" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="!INT" x="12.7" y="-5.08" length="short" direction="oc" function="dot" rot="R180"/>
+<pin name="ADDR0" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="ADDR1" x="-12.7" y="-2.54" length="short" direction="in"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1538,6 +1608,107 @@ TSSOP-8 (4.4mm X 3mm)</description>
 <connect gate="G$1" pin="SCL" pad="6"/>
 <connect gate="G$1" pin="SDA" pad="5"/>
 <connect gate="G$1" pin="VDD" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TMP006" prefix="U">
+<description>Infrared Thermopile Sensor</description>
+<gates>
+<gate name="G$1" symbol="TMP00X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TMP00X">
+<connects>
+<connect gate="G$1" pin="!INT" pad="C2"/>
+<connect gate="G$1" pin="ADDR0" pad="C1"/>
+<connect gate="G$1" pin="ADDR1" pad="B1"/>
+<connect gate="G$1" pin="GND" pad="A1 A2 B2"/>
+<connect gate="G$1" pin="SCL" pad="B3"/>
+<connect gate="G$1" pin="SDA" pad="C3"/>
+<connect gate="G$1" pin="VDD" pad="A3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TMP007" prefix="U">
+<description>Infrared Thermopile Sensor with Integrated Math Engine</description>
+<gates>
+<gate name="G$1" symbol="TMP00X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TMP00X">
+<connects>
+<connect gate="G$1" pin="!INT" pad="C2"/>
+<connect gate="G$1" pin="ADDR0" pad="C1"/>
+<connect gate="G$1" pin="ADDR1" pad="B1"/>
+<connect gate="G$1" pin="GND" pad="A1 A2 B2"/>
+<connect gate="G$1" pin="SCL" pad="B3"/>
+<connect gate="G$1" pin="SDA" pad="C3"/>
+<connect gate="G$1" pin="VDD" pad="A3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MLX90614" prefix="U" uservalue="yes">
+<description>Single and Dual Zone Infrared Thermometer</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-I2C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MLX9061X">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MLX90615" prefix="U" uservalue="yes">
+<description>Infrared Thermometer</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-I2C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MLX9061X">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MLX90616" prefix="U" uservalue="yes">
+<description>Infrared Thermometer</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-I2C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MLX9061X">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

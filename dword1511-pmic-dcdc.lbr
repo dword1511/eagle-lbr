@@ -464,7 +464,7 @@
 <text x="-9.906" y="5.588" size="1.778" layer="95">&gt;NAME</text>
 <text x="0" y="5.588" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="LM2733">
+<symbol name="GENERIC-DC-DC">
 <pin name="SW" x="10.16" y="2.54" visible="pin" length="short" direction="sup" rot="R180"/>
 <pin name="GND" x="-10.16" y="-2.54" visible="pin" length="short" direction="pwr"/>
 <pin name="FB" x="10.16" y="-2.54" visible="pin" length="short" direction="in" rot="R180"/>
@@ -688,7 +688,7 @@
 <deviceset name="LM2733" prefix="U">
 <description>Boost converters with 40-V internal FET switch</description>
 <gates>
-<gate name="G$1" symbol="LM2733" x="0" y="0"/>
+<gate name="G$1" symbol="GENERIC-DC-DC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT-23-5">
@@ -1284,6 +1284,26 @@
 <connect gate="G$1" pin="IN" pad="2"/>
 <connect gate="G$1" pin="SS" pad="8"/>
 <connect gate="G$1" pin="SW" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP3012" prefix="U">
+<description>1.5MHz Step-up DC-DC Converter</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-DC-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SW" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -762,6 +762,112 @@
 <wire x1="3.175" y1="3.683" x2="2.667" y2="3.683" width="0.127" layer="21" curve="-90"/>
 <wire x1="3.683" y1="3.175" x2="3.683" y2="2.667" width="0.127" layer="21" curve="90"/>
 </package>
+<package name="BME680">
+<smd name="1" x="1.4" y="1.2" dx="0.8" dy="0.45" layer="1"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.051" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.051" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.051" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.051" layer="51"/>
+<text x="-1.465" y="1.627" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.781" y="-2.516" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<circle x="2.3" y="1.2" radius="0.2" width="0" layer="21"/>
+<smd name="2" x="1.4" y="0.4" dx="0.8" dy="0.45" layer="1"/>
+<smd name="3" x="1.4" y="-0.4" dx="0.8" dy="0.45" layer="1"/>
+<smd name="4" x="1.4" y="-1.2" dx="0.8" dy="0.45" layer="1"/>
+<smd name="5" x="-1.4" y="-1.2" dx="0.8" dy="0.45" layer="1"/>
+<smd name="6" x="-1.4" y="-0.4" dx="0.8" dy="0.45" layer="1"/>
+<smd name="7" x="-1.4" y="0.4" dx="0.8" dy="0.45" layer="1"/>
+<smd name="8" x="-1.4" y="1.2" dx="0.8" dy="0.45" layer="1"/>
+<circle x="0.72" y="1.2" radius="0.075" width="0" layer="51"/>
+<circle x="-0.6" y="-0.6" radius="0.175" width="0.051" layer="51"/>
+<wire x1="-1.4" y1="1.4" x2="-1.4" y2="-1.4" width="0.051" layer="51"/>
+<wire x1="-1.4" y1="-1.4" x2="1.4" y2="-1.4" width="0.051" layer="51"/>
+<wire x1="1.4" y1="-1.4" x2="1.4" y2="1.4" width="0.051" layer="51"/>
+<wire x1="1.4" y1="1.4" x2="-1.4" y2="1.4" width="0.051" layer="51"/>
+<rectangle x1="1" y1="1" x2="1.4" y2="1.4" layer="51"/>
+<rectangle x1="1" y1="0.2" x2="1.4" y2="0.6" layer="51"/>
+<rectangle x1="1" y1="-0.6" x2="1.4" y2="-0.2" layer="51"/>
+<rectangle x1="1" y1="-1.4" x2="1.4" y2="-1" layer="51"/>
+<rectangle x1="-1.4" y1="-1.4" x2="-1" y2="-1" layer="51"/>
+<rectangle x1="-1.4" y1="-0.6" x2="-1" y2="-0.2" layer="51"/>
+<rectangle x1="-1.4" y1="0.2" x2="-1" y2="0.6" layer="51"/>
+<rectangle x1="-1.4" y1="1" x2="-1" y2="1.4" layer="51"/>
+<wire x1="-0.8" y1="1.5" x2="0.8" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.5" x2="0.8" y2="-1.5" width="0.127" layer="21"/>
+<circle x="0.72" y="1.2" radius="0.1" width="0" layer="21"/>
+</package>
+<package name="BME280">
+<smd name="1" x="1.1" y="0.975" dx="0.65" dy="0.4" layer="1"/>
+<wire x1="-1.25" y1="-1.25" x2="1.25" y2="-1.25" width="0.051" layer="51"/>
+<wire x1="1.25" y1="-1.25" x2="1.25" y2="1.25" width="0.051" layer="51"/>
+<wire x1="1.25" y1="1.25" x2="-1.25" y2="1.25" width="0.051" layer="51"/>
+<wire x1="-1.25" y1="1.25" x2="-1.25" y2="-1.25" width="0.051" layer="51"/>
+<text x="-1.165" y="1.427" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.781" y="-2.216" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<circle x="1.9" y="1" radius="0.2" width="0" layer="21"/>
+<circle x="0.5" y="0.975" radius="0.075" width="0" layer="51"/>
+<circle x="0.012" y="-0.625" radius="0.15" width="0.051" layer="51"/>
+<wire x1="-1.15" y1="1.15" x2="-1.15" y2="-1.15" width="0.051" layer="51"/>
+<wire x1="-1.15" y1="-1.15" x2="1.15" y2="-1.15" width="0.051" layer="51"/>
+<wire x1="1.15" y1="-1.15" x2="1.15" y2="1.15" width="0.051" layer="51"/>
+<wire x1="1.15" y1="1.15" x2="-1.15" y2="1.15" width="0.051" layer="51"/>
+<rectangle x1="0.8" y1="0.8" x2="1.15" y2="1.15" layer="51"/>
+<rectangle x1="0.8" y1="0.15" x2="1.15" y2="0.5" layer="51"/>
+<rectangle x1="0.8" y1="-0.5" x2="1.15" y2="-0.15" layer="51"/>
+<rectangle x1="0.8" y1="-1.15" x2="1.15" y2="-0.8" layer="51"/>
+<rectangle x1="-1.15" y1="-1.15" x2="-0.8" y2="-0.8" layer="51"/>
+<rectangle x1="-1.15" y1="0.15" x2="-0.8" y2="0.5" layer="51"/>
+<rectangle x1="-1.15" y1="-0.5" x2="-0.8" y2="-0.15" layer="51"/>
+<rectangle x1="-1.15" y1="0.8" x2="-0.8" y2="1.15" layer="51"/>
+<smd name="2" x="1.1" y="0.325" dx="0.65" dy="0.4" layer="1"/>
+<smd name="3" x="1.1" y="-0.325" dx="0.65" dy="0.4" layer="1"/>
+<smd name="4" x="1.1" y="-0.975" dx="0.65" dy="0.4" layer="1"/>
+<smd name="5" x="-1.1" y="-0.975" dx="0.65" dy="0.4" layer="1"/>
+<smd name="6" x="-1.1" y="-0.325" dx="0.65" dy="0.4" layer="1"/>
+<smd name="7" x="-1.1" y="0.325" dx="0.65" dy="0.4" layer="1"/>
+<smd name="8" x="-1.1" y="0.975" dx="0.65" dy="0.4" layer="1"/>
+<wire x1="-0.6" y1="1.2" x2="0.6" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-1.2" x2="0.6" y2="-1.2" width="0.127" layer="21"/>
+<circle x="0.5" y="0.975" radius="0.1" width="0" layer="21"/>
+</package>
+<package name="BMP280">
+<smd name="1" x="0.85" y="0.975" dx="0.65" dy="0.4" layer="1"/>
+<wire x1="-1" y1="-1.25" x2="1" y2="-1.25" width="0.051" layer="51"/>
+<wire x1="1" y1="-1.25" x2="1" y2="1.25" width="0.051" layer="51"/>
+<wire x1="1" y1="1.25" x2="-1" y2="1.25" width="0.051" layer="51"/>
+<wire x1="-1" y1="1.25" x2="-1" y2="-1.25" width="0.051" layer="51"/>
+<text x="-0.965" y="1.427" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.781" y="-2.216" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<circle x="1.7" y="1" radius="0.2" width="0" layer="21"/>
+<circle x="0.25" y="0.95" radius="0.075" width="0" layer="51"/>
+<circle x="-0.175" y="-0.425" radius="0.15" width="0.051" layer="51"/>
+<wire x1="-0.875" y1="1.125" x2="-0.875" y2="-1.125" width="0.051" layer="51"/>
+<wire x1="-0.875" y1="-1.125" x2="0.875" y2="-1.125" width="0.051" layer="51"/>
+<wire x1="0.875" y1="-1.125" x2="0.875" y2="1.125" width="0.051" layer="51"/>
+<wire x1="0.875" y1="1.125" x2="-0.875" y2="1.125" width="0.051" layer="51"/>
+<rectangle x1="0.55" y1="0.8" x2="0.9" y2="1.15" layer="51"/>
+<rectangle x1="0.55" y1="0.15" x2="0.9" y2="0.5" layer="51"/>
+<rectangle x1="0.55" y1="-0.5" x2="0.9" y2="-0.15" layer="51"/>
+<rectangle x1="0.55" y1="-1.15" x2="0.9" y2="-0.8" layer="51"/>
+<rectangle x1="-0.9" y1="-1.15" x2="-0.55" y2="-0.8" layer="51"/>
+<rectangle x1="-0.9" y1="0.15" x2="-0.55" y2="0.5" layer="51"/>
+<rectangle x1="-0.9" y1="-0.5" x2="-0.55" y2="-0.15" layer="51"/>
+<rectangle x1="-0.9" y1="0.8" x2="-0.55" y2="1.15" layer="51"/>
+<smd name="2" x="0.85" y="0.325" dx="0.65" dy="0.4" layer="1"/>
+<smd name="3" x="0.85" y="-0.325" dx="0.65" dy="0.4" layer="1"/>
+<smd name="4" x="0.85" y="-0.975" dx="0.65" dy="0.4" layer="1"/>
+<smd name="5" x="-0.85" y="-0.975" dx="0.65" dy="0.4" layer="1"/>
+<smd name="6" x="-0.85" y="-0.325" dx="0.65" dy="0.4" layer="1"/>
+<smd name="7" x="-0.85" y="0.325" dx="0.65" dy="0.4" layer="1"/>
+<smd name="8" x="-0.85" y="0.975" dx="0.65" dy="0.4" layer="1"/>
+<wire x1="-0.3" y1="1.2" x2="0.3" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="-1.2" x2="0.3" y2="-1.2" width="0.127" layer="21"/>
+<circle x="0.25" y="0.95" radius="0.1" width="0" layer="21"/>
+<wire x1="-0.525" y1="0.775" x2="-0.525" y2="-0.775" width="0.051" layer="51"/>
+<wire x1="-0.525" y1="-0.775" x2="0.525" y2="-0.775" width="0.051" layer="51"/>
+<wire x1="0.525" y1="-0.775" x2="0.525" y2="0.775" width="0.051" layer="51"/>
+<wire x1="0.525" y1="0.775" x2="-0.525" y2="0.775" width="0.051" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MMA865XFC">
@@ -863,7 +969,7 @@
 <symbol name="BH1750FVI">
 <pin name="VDD" x="-12.7" y="2.54" length="short" direction="pwr"/>
 <pin name="SCL" x="12.7" y="0" length="short" direction="oc" function="clk" rot="R180"/>
-<pin name="DVDD/POR" x="12.7" y="-2.54" length="short" direction="oc" rot="R180"/>
+<pin name="VDDIO/POR" x="12.7" y="-2.54" length="short" direction="oc" rot="R180"/>
 <pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
 <pin name="SDA" x="12.7" y="2.54" length="short" direction="oc" rot="R180"/>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -983,6 +1089,21 @@
 <pin name="!INT" x="12.7" y="-5.08" length="short" direction="oc" function="dot" rot="R180"/>
 <pin name="ADDR0" x="-12.7" y="0" length="short" direction="in"/>
 <pin name="ADDR1" x="-12.7" y="-2.54" length="short" direction="in"/>
+</symbol>
+<symbol name="BOSCH-I2CSPI">
+<pin name="VDD" x="-17.78" y="0" length="short" direction="pwr"/>
+<pin name="SCK/SCL" x="17.78" y="-2.54" length="short" direction="in" function="clk" rot="R180"/>
+<pin name="GND" x="-17.78" y="-5.08" length="short" direction="pwr"/>
+<pin name="SDI/SDIO/SDA" x="17.78" y="0" length="short" rot="R180"/>
+<wire x1="-15.24" y1="-7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="-15.24" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<text x="-15.24" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="5.588" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="!CS!/I2C" x="17.78" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="SDO/AD0" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="VDDIO" x="-17.78" y="2.54" length="short" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1156,11 +1277,11 @@
 <device name="" package="BH1750FVI">
 <connects>
 <connect gate="G$1" pin="ADDR" pad="2"/>
-<connect gate="G$1" pin="DVDD/POR" pad="5"/>
 <connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="SCL" pad="6"/>
 <connect gate="G$1" pin="SDA" pad="4"/>
 <connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VDDIO/POR" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1709,6 +1830,72 @@ TSSOP-8 (4.4mm X 3mm)</description>
 <connect gate="G$1" pin="SCL" pad="1"/>
 <connect gate="G$1" pin="SDA" pad="2"/>
 <connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BME280" prefix="U">
+<description>Combined Humidity and Pressure Sensor</description>
+<gates>
+<gate name="G$1" symbol="BOSCH-I2CSPI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BME280">
+<connects>
+<connect gate="G$1" pin="!CS!/I2C" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1 7"/>
+<connect gate="G$1" pin="SCK/SCL" pad="4"/>
+<connect gate="G$1" pin="SDI/SDIO/SDA" pad="3"/>
+<connect gate="G$1" pin="SDO/AD0" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BME680" prefix="U">
+<description>Low Power Gas, Pressure, Temperature and Humidity Sensor</description>
+<gates>
+<gate name="G$1" symbol="BOSCH-I2CSPI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BME680">
+<connects>
+<connect gate="G$1" pin="!CS!/I2C" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1 7"/>
+<connect gate="G$1" pin="SCK/SCL" pad="4"/>
+<connect gate="G$1" pin="SDI/SDIO/SDA" pad="3"/>
+<connect gate="G$1" pin="SDO/AD0" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BMP280" prefix="U">
+<description>Digital Pressure Sensor</description>
+<gates>
+<gate name="G$1" symbol="BOSCH-I2CSPI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BMP280">
+<connects>
+<connect gate="G$1" pin="!CS!/I2C" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1 7"/>
+<connect gate="G$1" pin="SCK/SCL" pad="4"/>
+<connect gate="G$1" pin="SDI/SDIO/SDA" pad="3"/>
+<connect gate="G$1" pin="SDO/AD0" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>

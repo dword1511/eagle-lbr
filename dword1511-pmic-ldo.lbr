@@ -1337,6 +1337,32 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="MCP1755" prefix="U">
+<description>PSRR 80 dB @ 1 kHz, IQ 68 uA, Vin 16 V, 300 mA, Low-noise High-performance LDO</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-LDO-5PIN-PG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="/OT" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="PG" pad="4"/>
+</connects>
+<technologies>
+<technology name="-1802E"/>
+<technology name="-2502E"/>
+<technology name="-2802E"/>
+<technology name="-3002E"/>
+<technology name="-3302E"/>
+<technology name="-4002E"/>
+<technology name="-5002E"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

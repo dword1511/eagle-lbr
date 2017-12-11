@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -736,6 +736,12 @@
 <vertex x="0" y="-0.5" curve="90"/>
 <vertex x="0.5" y="0" curve="90"/>
 </polygon>
+<polygon width="0" layer="1" pour="cutout">
+<vertex x="0" y="0.635" curve="90"/>
+<vertex x="-0.635" y="0" curve="90"/>
+<vertex x="0" y="-0.635" curve="90"/>
+<vertex x="0.635" y="0" curve="90"/>
+</polygon>
 </package>
 <package name="JUMPER3-2X1MM">
 <wire x1="-1.1" y1="0.6" x2="1.1" y2="0.6" width="0.0508" layer="39"/>
@@ -777,6 +783,14 @@
 <vertex x="1" y="0" curve="-90"/>
 <vertex x="0.5" y="-0.5"/>
 <vertex x="-0.5" y="-0.5" curve="-90"/>
+</polygon>
+<polygon width="0" layer="1" pour="cutout">
+<vertex x="-0.508" y="0.635"/>
+<vertex x="0.508" y="0.635" curve="-90"/>
+<vertex x="1.143" y="0" curve="-90"/>
+<vertex x="0.508" y="-0.635"/>
+<vertex x="-0.508" y="-0.635" curve="-90"/>
+<vertex x="-1.143" y="0" curve="-90"/>
 </polygon>
 </package>
 </packages>

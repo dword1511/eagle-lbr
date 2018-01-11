@@ -400,11 +400,11 @@
 <text x="0" y="5.588" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="GENERIC-DC-DC">
-<pin name="SW" x="10.16" y="2.54" visible="pin" length="short" direction="sup" rot="R180"/>
-<pin name="GND" x="-10.16" y="-2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="FB" x="10.16" y="-2.54" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
-<pin name="VIN" x="-10.16" y="2.54" visible="pin" length="short" direction="pwr"/>
+<pin name="SW" x="10.16" y="2.54" length="short" direction="sup" rot="R180"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short" direction="pwr"/>
+<pin name="FB" x="10.16" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="VIN" x="-10.16" y="2.54" length="short" direction="pwr"/>
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
@@ -553,6 +553,34 @@
 <text x="-9.906" y="5.588" size="1.778" layer="95">&gt;NAME</text>
 <text x="-1.27" y="5.588" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="PWMD" x="-12.7" y="-5.08" visible="pin" length="short" direction="in"/>
+</symbol>
+<symbol name="GENERIC-DC-DC-EXT-COMP">
+<pin name="EXT" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="GND" x="-12.7" y="-2.54" length="short" direction="pwr"/>
+<pin name="FB" x="12.7" y="0" length="short" direction="in" rot="R180"/>
+<pin name="EN" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="VIN" x="-12.7" y="2.54" length="short" direction="pwr"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<text x="-9.906" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.27" y="5.588" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="COMP" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+</symbol>
+<symbol name="PAM2803">
+<pin name="SW" x="10.16" y="2.54" length="short" direction="sup" rot="R180"/>
+<pin name="GND" x="-10.16" y="-2.54" length="short" direction="pwr"/>
+<pin name="FB" x="10.16" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="VIN" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="-7.366" y="5.588" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.27" y="5.588" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VOUT" x="10.16" y="0" length="short" direction="in" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -787,7 +815,7 @@
 <gate name="G$1" symbol="GENERIC-DC-DC-SYNC-1-PAD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC-8P">
+<device name="SP" package="SOIC-8P">
 <connects>
 <connect gate="G$1" pin="BS" pad="1"/>
 <connect gate="G$1" pin="COMP" pad="6"/>
@@ -800,7 +828,7 @@
 <connect gate="G$1" pin="SW" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="G"/>
 </technologies>
 </device>
 </devices>
@@ -1263,6 +1291,69 @@
 <technologies>
 <technology name=""/>
 <technology name="A"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RT8059" prefix="U">
+<description>1.5MHz, 1A, High Efficiency PWM Step-Down Converter</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-DC-DC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="J5" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SW" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
+</connects>
+<technologies>
+<technology name="G"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RT9288A" prefix="U">
+<description>PWM Step-Up Controller for White-LED Driver</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-DC-DC-EXT-COMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="E" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="COMP" pad="4"/>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="EXT" pad="6"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+</connects>
+<technologies>
+<technology name="G"/>
+<technology name="P"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PAM2803" prefix="U">
+<description>3W Single Cell High Power LED Driver</description>
+<gates>
+<gate name="G$1" symbol="PAM2803" x="0" y="0"/>
+</gates>
+<devices>
+<device name="AAF" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SW" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="6"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="?095"/>
 </technologies>
 </device>
 </devices>

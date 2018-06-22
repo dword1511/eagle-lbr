@@ -1304,6 +1304,448 @@
 <wire x1="-2.032" y1="0.508" x2="-2.032" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="2.032" y2="2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="ADG919">
+<pin name="RFC" x="-12.7" y="10.16" visible="off" length="short"/>
+<pin name="VDD" x="0" y="15.24" visible="off" length="short" direction="pwr" rot="R270"/>
+<pin name="SW" x="-12.7" y="0" visible="off" length="short" direction="in"/>
+<pin name="GND" x="0" y="-15.24" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="RF2" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="13.97" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<circle x="-1.27" y="10.16" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-1.778" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="10.414" x2="1.27" y2="11.176" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="1.778" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-1.778" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-7.62" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="0" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="0" x2="0" y2="6.35" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="6.35" x2="0" y2="10.16" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="4.064" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="6.096" y2="2.54" width="0.254" layer="94"/>
+<wire x1="6.096" y1="2.54" x2="5.08" y2="1.524" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.524" x2="4.064" y2="2.54" width="0.254" layer="94"/>
+<circle x="1.27" y="10.16" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="7.62" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="7.366" x2="5.588" y2="5.08" width="0.254" layer="94"/>
+<circle x="5.08" y="5.08" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="8.128" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.572" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="5.08" y2="6.35" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="6.35" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="10.16" radius="0.381" width="0" layer="94"/>
+<text x="-9.652" y="10.668" size="1.524" layer="97">RFC</text>
+<text x="9.652" y="-2.032" size="1.524" layer="97" align="bottom-right">RF2</text>
+<text x="-9.652" y="2.54" size="1.524" layer="97">SW</text>
+<pin name="RF1" x="12.7" y="10.16" visible="off" length="short" rot="R180"/>
+<text x="9.652" y="10.668" size="1.524" layer="97" align="bottom-right">RF1</text>
+<wire x1="-2.54" y1="-2.54" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-1.27" y="-2.54" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.286" x2="1.27" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-2.54" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.064" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="6.096" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="6.096" y1="-10.16" x2="5.08" y2="-11.176" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-11.176" x2="4.064" y2="-10.16" width="0.254" layer="94"/>
+<circle x="1.27" y="-2.54" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="-5.08" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="-5.334" x2="6.096" y2="-7.62" width="0.254" layer="94"/>
+<circle x="5.08" y="-7.62" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-4.572" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-8.128" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="5.08" y2="-6.35" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="0" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="-2.54" radius="0.381" width="0" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<circle x="-2.54" y="10.16" radius="0.381" width="0" layer="94"/>
+</symbol>
+<symbol name="ADG918">
+<pin name="RFC" x="-12.7" y="10.16" visible="off" length="short"/>
+<pin name="VDD" x="0" y="15.24" visible="off" length="short" direction="pwr" rot="R270"/>
+<pin name="SW" x="-12.7" y="0" visible="off" length="short" direction="in"/>
+<pin name="GND" x="0" y="-15.24" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="RF2" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.16" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="13.97" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<circle x="-1.27" y="10.16" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-1.778" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="10.414" x2="1.27" y2="11.176" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="1.778" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-1.778" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-7.62" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="0" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="0" x2="0" y2="6.35" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="6.35" x2="0" y2="10.16" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="4.064" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="6.096" y2="2.54" width="0.254" layer="94"/>
+<wire x1="6.096" y1="2.54" x2="5.08" y2="1.524" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.524" x2="4.064" y2="2.54" width="0.254" layer="94"/>
+<circle x="1.27" y="10.16" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="7.62" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="7.366" x2="5.588" y2="5.08" width="0.254" layer="94"/>
+<circle x="5.08" y="5.08" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="8.128" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="5.08" y2="6.35" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="6.35" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="10.16" radius="0.381" width="0" layer="94"/>
+<text x="-9.652" y="10.668" size="1.524" layer="97">RFC</text>
+<text x="9.652" y="-2.032" size="1.524" layer="97" align="bottom-right">RF2</text>
+<text x="-9.652" y="2.54" size="1.524" layer="97">SW</text>
+<pin name="RF1" x="12.7" y="10.16" visible="off" length="short" rot="R180"/>
+<text x="9.652" y="10.668" size="1.524" layer="97" align="bottom-right">RF1</text>
+<wire x1="-2.54" y1="-2.54" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-1.27" y="-2.54" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.286" x2="1.27" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-2.54" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.064" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="6.096" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="6.096" y1="-10.16" x2="5.08" y2="-11.176" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-11.176" x2="4.064" y2="-10.16" width="0.254" layer="94"/>
+<circle x="1.27" y="-2.54" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="-5.08" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="-5.334" x2="6.096" y2="-7.62" width="0.254" layer="94"/>
+<circle x="5.08" y="-7.62" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-4.572" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="5.08" y2="-6.35" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="0" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="-2.54" radius="0.381" width="0" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<circle x="-2.54" y="10.16" radius="0.381" width="0" layer="94"/>
+<wire x1="5.08" y1="-8.128" x2="5.08" y2="-8.382" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-8.382" x2="5.588" y2="-8.636" width="0.254" layer="94"/>
+<wire x1="5.588" y1="-8.636" x2="4.572" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-8.89" x2="5.588" y2="-9.144" width="0.254" layer="94"/>
+<wire x1="5.588" y1="-9.144" x2="4.572" y2="-9.398" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-9.398" x2="5.08" y2="-9.652" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-9.652" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.572" x2="5.08" y2="4.318" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.318" x2="5.588" y2="4.064" width="0.254" layer="94"/>
+<wire x1="5.588" y1="4.064" x2="4.572" y2="3.81" width="0.254" layer="94"/>
+<wire x1="4.572" y1="3.81" x2="5.588" y2="3.556" width="0.254" layer="94"/>
+<wire x1="5.588" y1="3.556" x2="4.572" y2="3.302" width="0.254" layer="94"/>
+<wire x1="4.572" y1="3.302" x2="5.08" y2="3.048" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.048" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ADG936">
+<pin name="RFCA" x="-12.7" y="22.86" visible="off" length="short"/>
+<pin name="VDD" x="0" y="27.94" visible="off" length="short" direction="pwr" rot="R270"/>
+<pin name="SWA" x="-12.7" y="12.7" visible="off" length="short" direction="in"/>
+<pin name="GND" x="0" y="-27.94" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="RF2A" x="12.7" y="10.16" visible="off" length="short" rot="R180"/>
+<wire x1="-10.16" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="25.4" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="25.4" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<text x="-10.16" y="26.67" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="26.67" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="22.86" x2="-2.54" y2="22.86" width="0.254" layer="94"/>
+<circle x="-1.27" y="22.86" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="22.86" x2="-1.778" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="23.114" x2="1.27" y2="23.876" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="14.478" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="10.922" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.922" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-7.62" y2="14.478" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="12.7" x2="0" y2="19.05" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="19.05" x2="0" y2="22.86" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="22.86" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="4.064" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="6.096" y2="15.24" width="0.254" layer="94"/>
+<wire x1="6.096" y1="15.24" x2="5.08" y2="14.224" width="0.254" layer="94"/>
+<wire x1="5.08" y1="14.224" x2="4.064" y2="15.24" width="0.254" layer="94"/>
+<circle x="1.27" y="22.86" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="20.32" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="20.066" x2="5.588" y2="17.78" width="0.254" layer="94"/>
+<circle x="5.08" y="17.78" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.828" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="19.05" x2="5.08" y2="19.05" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="19.05" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="22.86" radius="0.381" width="0" layer="94"/>
+<text x="-9.652" y="23.368" size="1.524" layer="97">RFCA</text>
+<text x="9.652" y="10.668" size="1.524" layer="97" align="bottom-right">RF2A</text>
+<text x="-9.652" y="15.24" size="1.524" layer="97">SWA</text>
+<pin name="RF1A" x="12.7" y="22.86" visible="off" length="short" rot="R180"/>
+<text x="9.652" y="23.368" size="1.524" layer="97" align="bottom-right">RF1A</text>
+<wire x1="-2.54" y1="10.16" x2="-1.778" y2="10.16" width="0.254" layer="94"/>
+<circle x="-1.27" y="10.16" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="10.414" x2="1.27" y2="10.668" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="0" y2="10.16" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="4.064" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="6.096" y2="2.54" width="0.254" layer="94"/>
+<wire x1="6.096" y1="2.54" x2="5.08" y2="1.524" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.524" x2="4.064" y2="2.54" width="0.254" layer="94"/>
+<circle x="1.27" y="10.16" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="7.62" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="7.366" x2="6.096" y2="5.08" width="0.254" layer="94"/>
+<circle x="5.08" y="5.08" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="8.128" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="5.08" y2="6.35" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="12.7" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="10.16" radius="0.381" width="0" layer="94"/>
+<wire x1="0" y1="11.43" x2="0" y2="12.7" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="22.86" width="0.254" layer="94"/>
+<circle x="-2.54" y="22.86" radius="0.381" width="0" layer="94"/>
+<pin name="RFCB" x="-12.7" y="-2.54" visible="off" length="short"/>
+<pin name="SWB" x="-12.7" y="-12.7" visible="off" length="short" direction="in"/>
+<pin name="RF2B" x="12.7" y="-15.24" visible="off" length="short" rot="R180"/>
+<wire x1="10.16" y1="-25.4" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-1.27" y="-2.54" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.286" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.922" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="-14.478" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-14.478" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="-7.62" y2="-10.922" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="0" y2="-12.7" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="-12.7" x2="0" y2="-6.35" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-2.54" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.064" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="6.096" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="6.096" y1="-10.16" x2="5.08" y2="-11.176" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-11.176" x2="4.064" y2="-10.16" width="0.254" layer="94"/>
+<circle x="1.27" y="-2.54" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="-5.08" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="-5.334" x2="5.588" y2="-7.62" width="0.254" layer="94"/>
+<circle x="5.08" y="-7.62" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-4.572" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="5.08" y2="-6.35" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="-6.35" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="-2.54" radius="0.381" width="0" layer="94"/>
+<text x="-9.652" y="-2.032" size="1.524" layer="97">RFCB</text>
+<text x="9.652" y="-14.732" size="1.524" layer="97" align="bottom-right">RF2B</text>
+<text x="-9.652" y="-10.16" size="1.524" layer="97">SWB</text>
+<pin name="RF1B" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
+<text x="9.652" y="-2.032" size="1.524" layer="97" align="bottom-right">RF1B</text>
+<wire x1="-2.54" y1="-15.24" x2="-1.778" y2="-15.24" width="0.254" layer="94"/>
+<circle x="-1.27" y="-15.24" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-14.986" x2="1.27" y2="-14.732" width="0.254" layer="94"/>
+<wire x1="0" y1="-19.05" x2="0" y2="-15.24" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="4.064" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-22.86" x2="6.096" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="6.096" y1="-22.86" x2="5.08" y2="-23.876" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-23.876" x2="4.064" y2="-22.86" width="0.254" layer="94"/>
+<circle x="1.27" y="-15.24" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="-17.78" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="-18.034" x2="6.096" y2="-20.32" width="0.254" layer="94"/>
+<circle x="5.08" y="-20.32" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-17.272" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-19.05" x2="5.08" y2="-19.05" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="-12.7" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="-15.24" radius="0.381" width="0" layer="94"/>
+<wire x1="0" y1="-13.97" x2="0" y2="-12.7" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-2.54" y="-2.54" radius="0.381" width="0" layer="94"/>
+<wire x1="-10.16" y1="0" x2="10.16" y2="0" width="0.254" layer="94" style="longdash"/>
+<wire x1="5.08" y1="17.272" x2="5.08" y2="17.018" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.018" x2="5.588" y2="16.764" width="0.254" layer="94"/>
+<wire x1="5.588" y1="16.764" x2="4.572" y2="16.51" width="0.254" layer="94"/>
+<wire x1="4.572" y1="16.51" x2="5.588" y2="16.256" width="0.254" layer="94"/>
+<wire x1="5.588" y1="16.256" x2="4.572" y2="16.002" width="0.254" layer="94"/>
+<wire x1="4.572" y1="16.002" x2="5.08" y2="15.748" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.748" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.572" x2="5.08" y2="4.318" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.318" x2="5.588" y2="4.064" width="0.254" layer="94"/>
+<wire x1="5.588" y1="4.064" x2="4.572" y2="3.81" width="0.254" layer="94"/>
+<wire x1="4.572" y1="3.81" x2="5.588" y2="3.556" width="0.254" layer="94"/>
+<wire x1="5.588" y1="3.556" x2="4.572" y2="3.302" width="0.254" layer="94"/>
+<wire x1="4.572" y1="3.302" x2="5.08" y2="3.048" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.048" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-8.128" x2="5.08" y2="-8.382" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-8.382" x2="5.588" y2="-8.636" width="0.254" layer="94"/>
+<wire x1="5.588" y1="-8.636" x2="4.572" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-8.89" x2="5.588" y2="-9.144" width="0.254" layer="94"/>
+<wire x1="5.588" y1="-9.144" x2="4.572" y2="-9.398" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-9.398" x2="5.08" y2="-9.652" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-9.652" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-20.828" x2="5.08" y2="-21.082" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-21.082" x2="5.588" y2="-21.336" width="0.254" layer="94"/>
+<wire x1="5.588" y1="-21.336" x2="4.572" y2="-21.59" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-21.59" x2="5.588" y2="-21.844" width="0.254" layer="94"/>
+<wire x1="5.588" y1="-21.844" x2="4.572" y2="-22.098" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-22.098" x2="5.08" y2="-22.352" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-22.352" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ADG936R">
+<pin name="RFCA" x="-12.7" y="22.86" visible="off" length="short"/>
+<pin name="VDD" x="0" y="27.94" visible="off" length="short" direction="pwr" rot="R270"/>
+<pin name="SWA" x="-12.7" y="12.7" visible="off" length="short" direction="in"/>
+<pin name="GND" x="0" y="-27.94" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="RF2A" x="12.7" y="10.16" visible="off" length="short" rot="R180"/>
+<wire x1="-10.16" y1="-25.4" x2="10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="25.4" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="25.4" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<text x="-10.16" y="26.67" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="26.67" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="22.86" x2="-2.54" y2="22.86" width="0.254" layer="94"/>
+<circle x="-1.27" y="22.86" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="22.86" x2="-1.778" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="23.114" x2="1.27" y2="23.876" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="14.478" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="10.922" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.922" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-7.62" y2="14.478" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="12.7" x2="0" y2="19.05" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="19.05" x2="0" y2="22.86" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="22.86" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="4.064" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="6.096" y2="15.24" width="0.254" layer="94"/>
+<wire x1="6.096" y1="15.24" x2="5.08" y2="14.224" width="0.254" layer="94"/>
+<wire x1="5.08" y1="14.224" x2="4.064" y2="15.24" width="0.254" layer="94"/>
+<circle x="1.27" y="22.86" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="20.32" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="20.066" x2="5.588" y2="17.78" width="0.254" layer="94"/>
+<circle x="5.08" y="17.78" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="20.828" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.272" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="19.05" x2="5.08" y2="19.05" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="19.05" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="22.86" radius="0.381" width="0" layer="94"/>
+<text x="-9.652" y="23.368" size="1.524" layer="97">RFCA</text>
+<text x="9.652" y="10.668" size="1.524" layer="97" align="bottom-right">RF2A</text>
+<text x="-9.652" y="15.24" size="1.524" layer="97">SWA</text>
+<pin name="RF1A" x="12.7" y="22.86" visible="off" length="short" rot="R180"/>
+<text x="9.652" y="23.368" size="1.524" layer="97" align="bottom-right">RF1A</text>
+<wire x1="-2.54" y1="10.16" x2="-1.778" y2="10.16" width="0.254" layer="94"/>
+<circle x="-1.27" y="10.16" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="10.414" x2="1.27" y2="10.668" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="0" y2="10.16" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="4.064" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="6.096" y2="2.54" width="0.254" layer="94"/>
+<wire x1="6.096" y1="2.54" x2="5.08" y2="1.524" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.524" x2="4.064" y2="2.54" width="0.254" layer="94"/>
+<circle x="1.27" y="10.16" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="7.62" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="7.366" x2="6.096" y2="5.08" width="0.254" layer="94"/>
+<circle x="5.08" y="5.08" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="8.128" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="4.572" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="5.08" y2="6.35" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="12.7" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="10.16" radius="0.381" width="0" layer="94"/>
+<wire x1="0" y1="11.43" x2="0" y2="12.7" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="22.86" width="0.254" layer="94"/>
+<circle x="-2.54" y="22.86" radius="0.381" width="0" layer="94"/>
+<pin name="RFCB" x="-12.7" y="-2.54" visible="off" length="short"/>
+<pin name="SWB" x="-12.7" y="-12.7" visible="off" length="short" direction="in"/>
+<pin name="RF2B" x="12.7" y="-15.24" visible="off" length="short" rot="R180"/>
+<wire x1="10.16" y1="-25.4" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-1.27" y="-2.54" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.286" x2="1.27" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.922" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="-14.478" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-14.478" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="-7.62" y2="-10.922" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="0" y2="-12.7" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="-12.7" x2="0" y2="-6.35" width="0.254" layer="94" style="shortdash"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-2.54" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="4.064" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="6.096" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="6.096" y1="-10.16" x2="5.08" y2="-11.176" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-11.176" x2="4.064" y2="-10.16" width="0.254" layer="94"/>
+<circle x="1.27" y="-2.54" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="-5.08" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="-5.334" x2="5.588" y2="-7.62" width="0.254" layer="94"/>
+<circle x="5.08" y="-7.62" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-4.572" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-8.128" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="5.08" y2="-6.35" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="-6.35" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="-2.54" radius="0.381" width="0" layer="94"/>
+<text x="-9.652" y="-2.032" size="1.524" layer="97">RFCB</text>
+<text x="9.652" y="-14.732" size="1.524" layer="97" align="bottom-right">RF2B</text>
+<text x="-9.652" y="-10.16" size="1.524" layer="97">SWB</text>
+<pin name="RF1B" x="12.7" y="-2.54" visible="off" length="short" rot="R180"/>
+<text x="9.652" y="-2.032" size="1.524" layer="97" align="bottom-right">RF1B</text>
+<wire x1="-2.54" y1="-15.24" x2="-1.778" y2="-15.24" width="0.254" layer="94"/>
+<circle x="-1.27" y="-15.24" radius="0.381" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-14.986" x2="1.27" y2="-14.732" width="0.254" layer="94"/>
+<wire x1="0" y1="-19.05" x2="0" y2="-15.24" width="0.254" layer="94" style="shortdash"/>
+<wire x1="1.778" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="4.064" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-22.86" x2="6.096" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="6.096" y1="-22.86" x2="5.08" y2="-23.876" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-23.876" x2="4.064" y2="-22.86" width="0.254" layer="94"/>
+<circle x="1.27" y="-15.24" radius="0.381" width="0.254" layer="94"/>
+<circle x="5.08" y="-17.78" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.334" y1="-18.034" x2="6.096" y2="-20.32" width="0.254" layer="94"/>
+<circle x="5.08" y="-20.32" radius="0.381" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-17.272" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-20.828" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="-19.05" x2="5.08" y2="-19.05" width="0.254" layer="94" style="shortdash"/>
+<circle x="0" y="-12.7" radius="0.381" width="0" layer="94"/>
+<circle x="5.08" y="-15.24" radius="0.381" width="0" layer="94"/>
+<wire x1="0" y1="-13.97" x2="0" y2="-12.7" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-2.54" y="-2.54" radius="0.381" width="0" layer="94"/>
+<wire x1="-10.16" y1="0" x2="10.16" y2="0" width="0.254" layer="94" style="longdash"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SPF5043Z" prefix="U">
@@ -1572,6 +2014,98 @@
 <connect gate="G$1" pin="IN" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="6"/>
 <connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADG918" prefix="U">
+<description>Wideband 4 GHz, 43 dB Isolation at 1 GHz, CMOS 1.65 V to 2.75 V, 2:1 Mux SPDT Non-reflective Switch</description>
+<gates>
+<gate name="G$1" symbol="ADG918" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BRMZ" package="MSOP-8-3X3">
+<connects>
+<connect gate="G$1" pin="GND" pad="3 6 7"/>
+<connect gate="G$1" pin="RF1" pad="8"/>
+<connect gate="G$1" pin="RF2" pad="5"/>
+<connect gate="G$1" pin="RFC" pad="4"/>
+<connect gate="G$1" pin="SW" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADG919" prefix="U">
+<description>Wideband 4 GHz, 43 dB Isolation at 1 GHz, CMOS 1.65 V to 2.75 V, 2:1 Mux SPDT Reflective Switch</description>
+<gates>
+<gate name="G$1" symbol="ADG919" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BRMZ" package="MSOP-8-3X3">
+<connects>
+<connect gate="G$1" pin="GND" pad="3 6 7"/>
+<connect gate="G$1" pin="RF1" pad="8"/>
+<connect gate="G$1" pin="RF2" pad="5"/>
+<connect gate="G$1" pin="RFC" pad="4"/>
+<connect gate="G$1" pin="SW" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADG936" prefix="U">
+<description>Wideband 4 GHz, 36 dB Isolation at 1 GHz, CMOS, 1.65 V to 2.75 V, Dual SPDT Non-reflective Switch</description>
+<gates>
+<gate name="G$1" symbol="ADG936" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BRU" package="TSSOP-20">
+<connects>
+<connect gate="G$1" pin="GND" pad="3 5 6 8 9 11 13 15 16 18 20"/>
+<connect gate="G$1" pin="RF1A" pad="4"/>
+<connect gate="G$1" pin="RF1B" pad="7"/>
+<connect gate="G$1" pin="RF2A" pad="17"/>
+<connect gate="G$1" pin="RF2B" pad="14"/>
+<connect gate="G$1" pin="RFCA" pad="1"/>
+<connect gate="G$1" pin="RFCB" pad="10"/>
+<connect gate="G$1" pin="SWA" pad="19"/>
+<connect gate="G$1" pin="SWB" pad="12"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADG936?-R" prefix="U">
+<description>Wideband 4 GHz, 36 dB Isolation at 1 GHz, CMOS, 1.65 V to 2.75 V, Dual SPDT Reflective Switch</description>
+<gates>
+<gate name="G$1" symbol="ADG936" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BRU" package="TSSOP-20">
+<connects>
+<connect gate="G$1" pin="GND" pad="3 5 6 8 9 11 13 15 16 18 20"/>
+<connect gate="G$1" pin="RF1A" pad="4"/>
+<connect gate="G$1" pin="RF1B" pad="7"/>
+<connect gate="G$1" pin="RF2A" pad="17"/>
+<connect gate="G$1" pin="RF2B" pad="14"/>
+<connect gate="G$1" pin="RFCA" pad="1"/>
+<connect gate="G$1" pin="RFCB" pad="10"/>
+<connect gate="G$1" pin="SWA" pad="19"/>
+<connect gate="G$1" pin="SWB" pad="12"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

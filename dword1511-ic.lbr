@@ -1126,6 +1126,27 @@
 <text x="-12.446" y="5.588" size="1.778" layer="95">&gt;NAME</text>
 <text x="0.508" y="5.588" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="L6491">
+<pin name="VCC" x="-15.24" y="10.16" length="short" direction="pwr"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<text x="-12.446" y="13.208" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.048" y="13.208" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="HIN" x="-15.24" y="2.54" length="short" direction="in"/>
+<pin name="!LIN" x="-15.24" y="0" length="short" direction="in" function="dot"/>
+<pin name="!SHDN!/OD" x="-15.24" y="-2.54" length="short"/>
+<pin name="DT" x="-15.24" y="-12.7" length="short" direction="out"/>
+<pin name="SGND" x="-2.54" y="-17.78" length="short" direction="pwr" rot="R90"/>
+<pin name="PGND" x="2.54" y="-17.78" length="short" direction="pwr" rot="R90"/>
+<pin name="CP-" x="15.24" y="-12.7" length="short" direction="in" rot="R180"/>
+<pin name="CP+" x="15.24" y="-10.16" length="short" direction="in" rot="R180"/>
+<pin name="LVG" x="15.24" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="OUT" x="15.24" y="0" length="short" direction="pwr" rot="R180"/>
+<pin name="HVG" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="BOOT" x="15.24" y="10.16" length="short" direction="pwr" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="AU6433" prefix="U">
@@ -1400,6 +1421,34 @@
 <connect gate="G$1" pin="SQW/!INT" pad="3"/>
 <connect gate="G$1" pin="VBAT" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L6491" prefix="U">
+<description>600V 4A 800kHz H-Bridge Driver</description>
+<gates>
+<gate name="G$1" symbol="L6491" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-14">
+<connects>
+<connect gate="G$1" pin="!LIN" pad="1"/>
+<connect gate="G$1" pin="!SHDN!/OD" pad="2"/>
+<connect gate="G$1" pin="BOOT" pad="14"/>
+<connect gate="G$1" pin="CP+" pad="10"/>
+<connect gate="G$1" pin="CP-" pad="9"/>
+<connect gate="G$1" pin="DT" pad="5"/>
+<connect gate="G$1" pin="HIN" pad="3"/>
+<connect gate="G$1" pin="HVG" pad="13"/>
+<connect gate="G$1" pin="LVG" pad="8"/>
+<connect gate="G$1" pin="OUT" pad="12"/>
+<connect gate="G$1" pin="PGND" pad="7"/>
+<connect gate="G$1" pin="SGND" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

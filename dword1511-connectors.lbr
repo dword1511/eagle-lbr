@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -332,6 +332,11 @@ FR408 substrate, 16-mil pad, use &gt;10-mil CPW spacing or microstrip for 50-ohm
 <text x="0.635" y="6.35" size="0.8128" layer="25">&gt;NAME</text>
 <text x="0.635" y="-6.985" size="0.8128" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.025" y1="-0.5" x2="4.05" y2="0.5" layer="51"/>
+</package>
+<package name="KEYSTONE-575">
+<text x="-1.905" y="5.08" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<pad name="P$1" x="0" y="0" drill="5.5" diameter="10"/>
+<circle x="0" y="0" radius="8" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -681,6 +686,21 @@ Also known as HX2.54 connectors in China.</description>
 <connect gate="G$1" pin="S" pad="S1"/>
 <connect gate="G$1" pin="S@1" pad="S2"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BANANA_JACK" prefix="J">
+<gates>
+<gate name="G$1" symbol="TP" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="KEYSTONE-575" package="KEYSTONE-575">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>

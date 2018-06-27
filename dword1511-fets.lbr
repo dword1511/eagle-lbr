@@ -645,6 +645,24 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="IPD70R1K4P7S" prefix="Q">
+<description>700VDS, 1.4Ohm, 4A, 4.7nC N-Channel MOSFET</description>
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-252AA">
+<connects>
+<connect gate="G$1" pin="D" pad="4"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

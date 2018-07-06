@@ -1563,6 +1563,29 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="TPS56220" prefix="U">
+<description>4.5-V to 17-V Input, 2-A Synchronous Step-Down Voltage Regulator</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-DC-DC-BS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DDC" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="BS" pad="6"/>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SW" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name="1"/>
+<technology name="8"/>
+<technology name="9"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

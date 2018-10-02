@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -218,31 +218,31 @@
 <package name="BOURNS-3386F">
 <text x="-3.81" y="5.08" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-5.08" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="-4.5339" y1="4.5339" x2="4.5339" y2="4.5339" width="0.3048" layer="51"/>
-<wire x1="4.5339" y1="4.5339" x2="4.5339" y2="-4.5339" width="0.3048" layer="51"/>
-<wire x1="4.5339" y1="-4.5339" x2="3.7719" y2="-4.5339" width="0.3048" layer="51"/>
-<wire x1="-3.7719" y1="-4.5339" x2="-4.5339" y2="-4.5339" width="0.3048" layer="51"/>
-<wire x1="-4.5339" y1="-4.5339" x2="-4.5339" y2="4.5339" width="0.3048" layer="51"/>
-<circle x="0" y="1.1049" radius="1.5748" width="0.127" layer="51"/>
-<wire x1="0" y1="-0.0889" x2="0" y2="2.2987" width="0.762" layer="51"/>
-<wire x1="-3.7719" y1="-3.7719" x2="-3.7719" y2="-4.5339" width="0.3048" layer="51"/>
-<wire x1="3.7719" y1="-3.7719" x2="3.7719" y2="-4.5339" width="0.3048" layer="51"/>
+<wire x1="-4.7625" y1="4.7625" x2="4.7625" y2="4.7625" width="0.3048" layer="51"/>
+<wire x1="4.7625" y1="4.7625" x2="4.7625" y2="-4.7625" width="0.3048" layer="51"/>
+<wire x1="4.7625" y1="-4.7625" x2="3.7719" y2="-4.7625" width="0.3048" layer="51"/>
+<wire x1="-3.7719" y1="-4.7625" x2="-4.7625" y2="-4.7625" width="0.3048" layer="51"/>
+<wire x1="-4.7625" y1="-4.7625" x2="-4.7625" y2="4.7625" width="0.3048" layer="51"/>
+<circle x="0" y="0.8763" radius="1.5748" width="0.127" layer="51"/>
+<wire x1="0" y1="-0.2794" x2="0" y2="2.032" width="0.762" layer="51"/>
+<wire x1="-3.7719" y1="-3.7719" x2="-3.7719" y2="-4.7625" width="0.3048" layer="51"/>
+<wire x1="3.7719" y1="-3.7719" x2="3.7719" y2="-4.7625" width="0.3048" layer="51"/>
 <wire x1="-3.7719" y1="-3.7719" x2="3.7719" y2="-3.7719" width="0.3048" layer="51"/>
 <text x="2.54" y="-1.27" size="0.8128" layer="51" font="vector" align="center">CW</text>
 <text x="-2.54" y="-2.54" size="0.8128" layer="51" font="vector" align="center">1</text>
 <text x="2.54" y="-2.54" size="0.8128" layer="51" font="vector" align="center">3</text>
-<pad name="1" x="2.54" y="2.4257" drill="1.016"/>
-<pad name="2" x="0" y="-2.6543" drill="1.016"/>
-<pad name="3" x="-2.54" y="2.4257" drill="1.016"/>
-<wire x1="-4.5339" y1="-4.5339" x2="-4.5339" y2="4.5339" width="0.127" layer="21"/>
-<wire x1="-4.5339" y1="4.5339" x2="4.5339" y2="4.5339" width="0.127" layer="21"/>
-<wire x1="4.5339" y1="4.5339" x2="4.5339" y2="-4.5339" width="0.127" layer="21"/>
-<wire x1="-3.7719" y1="-3.7719" x2="3.7719" y2="-3.7719" width="0.127" layer="21"/>
-<wire x1="-3.7719" y1="-4.5339" x2="-4.5339" y2="-4.5339" width="0.127" layer="21"/>
-<wire x1="-3.7719" y1="-3.7719" x2="-3.7719" y2="-4.5339" width="0.127" layer="21"/>
-<wire x1="3.7719" y1="-3.7719" x2="3.7719" y2="-4.5339" width="0.127" layer="21"/>
-<wire x1="4.5339" y1="-4.5339" x2="3.7719" y2="-4.5339" width="0.127" layer="21"/>
-<circle x="0" y="1.1049" radius="1.5748" width="0.127" layer="21"/>
+<pad name="1" x="2.54" y="2.4257" drill="0.762"/>
+<pad name="2" x="0" y="-2.6543" drill="0.762"/>
+<pad name="3" x="-2.54" y="2.4257" drill="0.762"/>
+<circle x="0" y="0.8763" radius="1.5748" width="0.127" layer="21"/>
+<wire x1="-4.826" y1="-4.826" x2="-4.826" y2="4.826" width="0.3048" layer="21"/>
+<wire x1="-4.826" y1="4.826" x2="4.826" y2="4.826" width="0.3048" layer="21"/>
+<wire x1="4.826" y1="4.826" x2="4.826" y2="-4.826" width="0.3048" layer="21"/>
+<wire x1="4.826" y1="-4.826" x2="3.683" y2="-4.826" width="0.3048" layer="21"/>
+<wire x1="3.683" y1="-4.826" x2="3.683" y2="-3.937" width="0.3048" layer="21"/>
+<wire x1="3.683" y1="-3.937" x2="-3.683" y2="-3.937" width="0.3048" layer="21"/>
+<wire x1="-3.683" y1="-3.937" x2="-3.683" y2="-4.826" width="0.3048" layer="21"/>
+<wire x1="-3.683" y1="-4.826" x2="-4.826" y2="-4.826" width="0.3048" layer="21"/>
 </package>
 <package name="SGC3">
 <smd name="2" x="0" y="2" dx="1.4" dy="1.4" layer="1"/>
@@ -275,6 +275,35 @@
 <wire x1="1.1" y1="2.4" x2="0.9" y2="2.4" width="0.127" layer="21"/>
 <rectangle x1="-1" y1="-1" x2="1" y2="1" layer="21"/>
 <rectangle x1="-1" y1="-1" x2="1" y2="1" layer="43"/>
+</package>
+<package name="BOURNS-3296W">
+<text x="-4.445" y="2.921" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-4.7625" y1="2.413" x2="4.7625" y2="2.413" width="0.3048" layer="51"/>
+<wire x1="4.7625" y1="2.413" x2="4.7625" y2="-2.413" width="0.3048" layer="51"/>
+<wire x1="4.7625" y1="-2.413" x2="3.81" y2="-2.413" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="-2.413" x2="-4.7625" y2="-2.413" width="0.3048" layer="51"/>
+<wire x1="-4.7625" y1="-2.413" x2="-4.7625" y2="2.413" width="0.3048" layer="51"/>
+<circle x="-3.4925" y="1.143" radius="1.0922" width="0.127" layer="51"/>
+<text x="3.81" y="1.27" size="0.8128" layer="51" font="vector" align="center">CW</text>
+<text x="-3.81" y="-1.27" size="0.8128" layer="51" font="vector" align="center">1</text>
+<text x="3.81" y="-1.27" size="0.8128" layer="51" font="vector" align="center">3</text>
+<pad name="1" x="2.54" y="0" drill="0.762"/>
+<pad name="2" x="0" y="0" drill="0.762"/>
+<pad name="3" x="-2.54" y="0" drill="0.762"/>
+<wire x1="-3.4925" y1="2.032" x2="-3.4925" y2="0.254" width="0.5588" layer="51"/>
+<wire x1="-3.81" y1="-1.905" x2="3.81" y2="-1.905" width="0.3048" layer="51"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="-2.413" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="-2.413" width="0.3048" layer="51"/>
+<wire x1="-3.556" y1="0.0508" x2="-2.413" y2="1.016" width="0.127" layer="21" curve="-273.5"/>
+<wire x1="-4.826" y1="2.54" x2="-4.826" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="-4.826" y1="-2.54" x2="-3.683" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="-3.683" y1="-2.54" x2="-3.683" y2="-2.032" width="0.3048" layer="21"/>
+<wire x1="-3.683" y1="-2.032" x2="3.683" y2="-2.032" width="0.3048" layer="21"/>
+<wire x1="3.683" y1="-2.032" x2="3.683" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="3.683" y1="-2.54" x2="4.826" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="4.826" y1="-2.54" x2="4.826" y2="2.54" width="0.3048" layer="21"/>
+<wire x1="4.826" y1="2.54" x2="-4.826" y2="2.54" width="0.3048" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -460,6 +489,16 @@
 </technologies>
 </device>
 <device name="BOURNS-3386F" package="BOURNS-3386F">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="W" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BOURNS-3296W" package="BOURNS-3296W">
 <connects>
 <connect gate="G$1" pin="CCW" pad="1"/>
 <connect gate="G$1" pin="CW" pad="3"/>

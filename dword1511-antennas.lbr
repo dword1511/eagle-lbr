@@ -171,6 +171,16 @@ SOLDERMASK</text>
 <wire x1="-3.81" y1="0" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="1.016" width="0.254" layer="94"/>
 </symbol>
+<symbol name="GENERIC-ANT">
+<text x="3.302" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.302" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="FEED" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="0" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TI-SWRU120C" prefix="ANT">

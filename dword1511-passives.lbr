@@ -709,90 +709,6 @@
 <text x="-1.905" y="-2.54" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 <circle x="-2.159" y="1.27" radius="0.1905" width="0" layer="21"/>
 </package>
-<package name="JUMPER-1MM">
-<wire x1="-0.6" y1="0.6" x2="0.6" y2="0.6" width="0.0508" layer="39"/>
-<wire x1="0.6" y1="0.6" x2="0.6" y2="-0.6" width="0.0508" layer="39"/>
-<wire x1="0.6" y1="-0.6" x2="-0.6" y2="-0.6" width="0.0508" layer="39"/>
-<wire x1="-0.6" y1="-0.6" x2="-0.6" y2="0.6" width="0.0508" layer="39"/>
-<smd name="1" x="-0.275" y="0" dx="0.3" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
-<smd name="2" x="0.275" y="0" dx="0.3" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
-<text x="-0.635" y="0.635" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.635" y="-1.505" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<circle x="0" y="0" radius="0.5" width="0.051" layer="51"/>
-<polygon width="0.3048" layer="1">
-<vertex x="-0.23" y="-0.28"/>
-<vertex x="-0.23" y="0.28" curve="50"/>
-<vertex x="-0.35" y="0" curve="50"/>
-</polygon>
-<polygon width="0.3048" layer="1">
-<vertex x="0.23" y="0.28"/>
-<vertex x="0.23" y="-0.28" curve="50"/>
-<vertex x="0.35" y="0" curve="50"/>
-</polygon>
-<polygon width="0.1524" layer="29">
-<vertex x="0" y="0.5" curve="90"/>
-<vertex x="-0.5" y="0" curve="90"/>
-<vertex x="0" y="-0.5" curve="90"/>
-<vertex x="0.5" y="0" curve="90"/>
-</polygon>
-<polygon width="0" layer="1" pour="cutout">
-<vertex x="0" y="0.635" curve="90"/>
-<vertex x="-0.635" y="0" curve="90"/>
-<vertex x="0" y="-0.635" curve="90"/>
-<vertex x="0.635" y="0" curve="90"/>
-</polygon>
-</package>
-<package name="JUMPER3-2X1MM">
-<wire x1="-1.1" y1="0.6" x2="1.1" y2="0.6" width="0.0508" layer="39"/>
-<wire x1="1.1" y1="0.6" x2="1.1" y2="-0.6" width="0.0508" layer="39"/>
-<wire x1="1.1" y1="-0.6" x2="-1.1" y2="-0.6" width="0.0508" layer="39"/>
-<wire x1="-1.1" y1="-0.6" x2="-1.1" y2="0.6" width="0.0508" layer="39"/>
-<text x="-1.035" y="0.635" size="0.8128" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.635" y="-1.505" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<wire x1="-1" y1="0" x2="-0.5" y2="0.5" width="0.051" layer="51" curve="-90"/>
-<wire x1="-0.5" y1="0.5" x2="0.5" y2="0.5" width="0.051" layer="51"/>
-<wire x1="0.5" y1="0.5" x2="1" y2="0" width="0.051" layer="51" curve="-90"/>
-<wire x1="1" y1="0" x2="0.5" y2="-0.5" width="0.051" layer="51" curve="-90"/>
-<wire x1="0.5" y1="-0.5" x2="-0.5" y2="-0.5" width="0.051" layer="51"/>
-<wire x1="-0.5" y1="-0.5" x2="-1" y2="0" width="0.051" layer="51" curve="-90"/>
-<smd name="1" x="-0.7" y="0" dx="0.3" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
-<smd name="2" x="0" y="0" dx="0.3" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
-<smd name="3" x="0.7" y="0" dx="0.3" dy="0.3" layer="1" roundness="100" stop="no" cream="no"/>
-<polygon width="0.18" layer="1">
-<vertex x="-0.9" y="0" curve="-90"/>
-<vertex x="-0.5" y="0.4"/>
-<vertex x="-0.5" y="-0.4" curve="-90"/>
-</polygon>
-<polygon width="0.18" layer="1">
-<vertex x="0.5" y="0.4" curve="-90"/>
-<vertex x="0.9" y="0" curve="-90"/>
-<vertex x="0.5" y="-0.4"/>
-</polygon>
-<polygon width="0.18" layer="1">
-<vertex x="-0.15" y="0.4"/>
-<vertex x="-0.15" y="-0.4"/>
-<vertex x="0.15" y="-0.4"/>
-<vertex x="0.15" y="0.4"/>
-</polygon>
-<polygon width="0.05" layer="29">
-<vertex x="-1" y="0" curve="-90"/>
-<vertex x="-0.5" y="0.5"/>
-<vertex x="0.5" y="0.5" curve="-90"/>
-<vertex x="1" y="0" curve="-90"/>
-<vertex x="0.5" y="-0.5"/>
-<vertex x="-0.5" y="-0.5" curve="-90"/>
-</polygon>
-<polygon width="0" layer="1" pour="cutout">
-<vertex x="-0.508" y="0.635"/>
-<vertex x="0.508" y="0.635" curve="-90"/>
-<vertex x="1.143" y="0" curve="-90"/>
-<vertex x="0.508" y="-0.635"/>
-<vertex x="-0.508" y="-0.635" curve="-90"/>
-<vertex x="-1.143" y="0" curve="-90"/>
-</polygon>
-</package>
 <package name="NR50XX">
 <smd name="1" x="-1.9" y="0" dx="1.7" dy="4" layer="1"/>
 <smd name="2" x="1.9" y="0" dx="1.7" dy="4" layer="1"/>
@@ -848,6 +764,56 @@
 <rectangle x1="-1.6" y1="0.35" x2="1.6" y2="0.8" layer="51"/>
 <rectangle x1="-1.6" y1="-0.8" x2="1.6" y2="-0.35" layer="51"/>
 <rectangle x1="-1.7" y1="-0.2" x2="1.7" y2="0.2" layer="21"/>
+</package>
+<package name="1008">
+<wire x1="-0.65" y1="1" x2="0.65" y2="1" width="0.1524" layer="51"/>
+<wire x1="-0.65" y1="-1" x2="0.65" y2="-1" width="0.1524" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-1.1" y="0" dx="1.2" dy="2.1" layer="1"/>
+<smd name="2" x="1.1" y="0" dx="1.2" dy="2.1" layer="1"/>
+<text x="-0.635" y="1.27" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.935" y="-2.005" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="0.65" y1="-1" x2="1.25" y2="1" layer="51"/>
+<rectangle x1="-1.25" y1="-1" x2="-0.65" y2="1" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<rectangle x1="-0.4" y1="-1" x2="0.4" y2="1" layer="21"/>
+</package>
+<package name="XTAL-SMD-5032">
+<circle x="-1.95" y="-1.05" radius="0.2236" width="0" layer="51"/>
+<wire x1="-2.3" y1="1.4" x2="2.3" y2="1.4" width="0.0508" layer="51"/>
+<wire x1="2.3" y1="1.4" x2="2.3" y2="-1.4" width="0.0508" layer="51"/>
+<wire x1="2.3" y1="-1.4" x2="-2.3" y2="-1.4" width="0.0508" layer="51"/>
+<wire x1="-2.3" y1="-1.4" x2="-2.3" y2="1.4" width="0.0508" layer="51"/>
+<wire x1="-2.5" y1="-1.6" x2="-2.5" y2="1.6" width="0.2032" layer="51"/>
+<wire x1="2.5" y1="-1.6" x2="2.5" y2="1.6" width="0.2032" layer="51"/>
+<wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.2032" layer="51"/>
+<wire x1="2.5" y1="-1.6" x2="-2.5" y2="-1.6" width="0.2032" layer="51"/>
+<smd name="1" x="-2.1" y="0" dx="1.9" dy="2.7" layer="1"/>
+<smd name="2" x="2.1" y="0" dx="1.9" dy="2.7" layer="1"/>
+<text x="-2.3" y="1.84" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.535" y="-2.6" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-2.5" y1="1.6" x2="2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="21"/>
+</package>
+<package name="XTAL-SMD-3215">
+<circle x="-1" y="-0.15" radius="0.2236" width="0" layer="51"/>
+<wire x1="-1.4" y1="0.55" x2="1.4" y2="0.55" width="0.0508" layer="51"/>
+<wire x1="1.4" y1="0.55" x2="1.4" y2="-0.55" width="0.0508" layer="51"/>
+<wire x1="1.4" y1="-0.55" x2="-1.4" y2="-0.55" width="0.0508" layer="51"/>
+<wire x1="-1.4" y1="-0.55" x2="-1.4" y2="0.55" width="0.0508" layer="51"/>
+<wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="-0.75" x2="1.6" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="0.75" x2="-1.6" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="1.6" y1="-0.75" x2="-1.6" y2="-0.75" width="0.2032" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.4" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.4" dy="1.8" layer="1"/>
+<text x="-1.3" y="1.24" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.235" y="-2.1" size="0.8128" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-0.5" y1="0.8" x2="0.5" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-0.8" x2="0.5" y2="-0.8" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1002,35 +968,6 @@
 <wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
 <pin name="GND" x="0" y="-5.08" visible="off" length="point" direction="hiz" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="JUMPER">
-<text x="-3.81" y="1.397" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<circle x="-0.762" y="0" radius="0.254" width="0.254" layer="94"/>
-<circle x="0.762" y="0" radius="0.254" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="0.254" x2="0.762" y2="0.254" width="0.254" layer="94" curve="-180"/>
-</symbol>
-<symbol name="JUMPER3">
-<text x="-2.794" y="3.937" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.064" y="-5.715" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="2.54" y="2.54" visible="off" length="point" direction="pas" swaplevel="1"/>
-<circle x="-0.762" y="0" radius="0.254" width="0.254" layer="94"/>
-<circle x="0.762" y="2.54" radius="0.254" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
-<wire x1="1.016" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<circle x="0.762" y="-2.54" radius="0.254" width="0.254" layer="94"/>
-<pin name="3" x="2.54" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="1.016" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="0" x2="1.016" y2="2.032" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="3.302" x2="1.778" y2="3.302" width="0.254" layer="94"/>
-<wire x1="1.778" y1="3.302" x2="1.778" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="1.778" y1="-3.302" x2="-1.778" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="-3.302" x2="-1.778" y2="3.302" width="0.254" layer="94"/>
-</symbol>
 <symbol name="RESISTOR">
 <pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 <pin name="P$2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
@@ -1091,6 +1028,24 @@
 </technologies>
 </device>
 <device name="-SMD-3225" package="XTAL-SMD-3225">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMD-5032" package="XTAL-SMD-5032">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SMD-3215" package="XTAL-SMD-3215">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1224,6 +1179,24 @@
 </technologies>
 </device>
 <device name="-1812" package="1812">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1008" package="1008">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1206" package="1206">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
@@ -1419,41 +1392,6 @@
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2 4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JUMPER" prefix="J" uservalue="yes">
-<description>Printed Jumper for OSH Park (or similar) DRC</description>
-<gates>
-<gate name="G$1" symbol="JUMPER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-1MM" package="JUMPER-1MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JUMPER3" prefix="J" uservalue="yes">
-<description>Printed Jumper for OSH Park (or similar) DRC</description>
-<gates>
-<gate name="G$1" symbol="JUMPER3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-2X1MM" package="JUMPER3-2X1MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

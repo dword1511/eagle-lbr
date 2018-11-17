@@ -1085,7 +1085,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NC7SZ175" prefix="U" uservalue="yes">
+<deviceset name="NC7SZ175" prefix="U">
 <description>1.65V-5.5V UHS D-Type Flip-Flop with Asynchronous Clear</description>
 <gates>
 <gate name="G$1" symbol="74175-1G" x="0" y="0"/>
@@ -1106,7 +1106,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN74AC74" prefix="U" uservalue="yes">
+<deviceset name="SN74AC74" prefix="U">
 <description>Dual 2V-6V D-Type Flip-Flop with Asynchronous Clear and Preset</description>
 <gates>
 <gate name="G$1" symbol="7474-2G" x="0" y="0"/>
@@ -1135,7 +1135,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CD74AC74" prefix="U" uservalue="yes">
+<deviceset name="CD74AC74" prefix="U">
 <description>Dual 1.5V-5.5V D-Type Flip-Flop with Asynchronous Clear and Preset</description>
 <gates>
 <gate name="G$1" symbol="7474-2G" x="0" y="0"/>
@@ -1164,7 +1164,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN74AUP1G74" prefix="U" uservalue="yes">
+<deviceset name="SN74AUP1G74" prefix="U">
 <description>Low-Power Single Positive-Edge-Triggered D-Type Flip-Flop With Clear and Preset</description>
 <gates>
 <gate name="G$1" symbol="7474-1G" x="0" y="0"/>
@@ -1187,7 +1187,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="IDT74FCT3807" prefix="U" uservalue="yes">
+<deviceset name="IDT74FCT3807" prefix="U">
 <description>3.3V CMOS 1:10 Clock Driver</description>
 <gates>
 <gate name="G$1" symbol="743807" x="0" y="0"/>
@@ -1216,7 +1216,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN74AHC32" prefix="U" uservalue="yes">
+<deviceset name="SN74AHC32" prefix="U">
 <description>Quad 2-Input OR gates</description>
 <gates>
 <gate name="G$1" symbol="7432-4G" x="0" y="0"/>

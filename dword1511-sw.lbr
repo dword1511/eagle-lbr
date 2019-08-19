@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -73,6 +73,8 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -124,14 +126,14 @@
 </package>
 <package name="B3U-3000P-B">
 <hole x="0" y="0" drill="0.9"/>
-<smd name="P$1" x="-1.75" y="0" dx="0.9" dy="1.8" layer="1" rot="R180"/>
+<smd name="P$1" x="-1.8" y="0" dx="0.9" dy="1.7" layer="1" rot="R180"/>
 <wire x1="-1.5" y1="1.25" x2="-0.85" y2="1.25" width="0.127" layer="51"/>
 <wire x1="-0.85" y1="1.25" x2="0.85" y2="1.25" width="0.127" layer="51"/>
 <wire x1="0.85" y1="1.25" x2="1.5" y2="1.25" width="0.127" layer="51"/>
 <wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.127" layer="51"/>
-<smd name="P$2" x="1.75" y="0" dx="0.9" dy="1.8" layer="1" rot="R180"/>
+<smd name="P$2" x="1.8" y="0" dx="0.9" dy="1.7" layer="1" rot="R180"/>
 <wire x1="-0.85" y1="1.25" x2="-0.85" y2="1.95" width="0.127" layer="51"/>
 <wire x1="-0.85" y1="1.95" x2="0.85" y2="1.95" width="0.127" layer="51"/>
 <wire x1="0.85" y1="1.95" x2="0.85" y2="1.25" width="0.127" layer="51"/>
@@ -149,14 +151,14 @@
 <text x="-1.27" y="-3.81" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="B3U-3000P">
-<smd name="P$1" x="-1.75" y="0" dx="0.9" dy="1.8" layer="1" rot="R180"/>
+<smd name="P$1" x="-1.8" y="0" dx="0.9" dy="1.7" layer="1" rot="R180"/>
 <wire x1="-1.5" y1="1.25" x2="-0.85" y2="1.25" width="0.127" layer="51"/>
 <wire x1="-0.85" y1="1.25" x2="0.85" y2="1.25" width="0.127" layer="51"/>
 <wire x1="0.85" y1="1.25" x2="1.5" y2="1.25" width="0.127" layer="51"/>
 <wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.127" layer="51"/>
 <wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.127" layer="51"/>
-<smd name="P$2" x="1.75" y="0" dx="0.9" dy="1.8" layer="1" rot="R180"/>
+<smd name="P$2" x="1.8" y="0" dx="0.9" dy="1.7" layer="1" rot="R180"/>
 <wire x1="-0.85" y1="1.25" x2="-0.85" y2="1.95" width="0.127" layer="51"/>
 <wire x1="-0.85" y1="1.95" x2="0.85" y2="1.95" width="0.127" layer="51"/>
 <wire x1="0.85" y1="1.95" x2="0.85" y2="1.25" width="0.127" layer="51"/>
@@ -658,6 +660,30 @@
 <wire x1="1.1" y1="0" x2="0.5" y2="-0.6" width="0.0508" layer="41" curve="-90"/>
 <wire x1="0.5" y1="-0.6" x2="-0.5" y2="-0.6" width="0.0508" layer="41"/>
 <wire x1="-0.5" y1="-0.6" x2="-1.1" y2="0" width="0.0508" layer="41" curve="-90"/>
+</package>
+<package name="434331013822">
+<smd name="1A" x="-1.9" y="0.7" dx="1.6" dy="1" layer="1"/>
+<smd name="1B" x="1.9" y="0.7" dx="1.6" dy="1" layer="1"/>
+<smd name="2B" x="1.9" y="-0.7" dx="1.6" dy="1" layer="1"/>
+<smd name="2A" x="-1.9" y="-0.7" dx="1.6" dy="1" layer="1"/>
+<wire x1="-1.75" y1="1.775" x2="1.75" y2="1.775" width="0.127" layer="51"/>
+<wire x1="1.75" y1="1.775" x2="1.75" y2="-1.775" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-1.775" x2="-1.75" y2="-1.775" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-1.775" x2="-1.75" y2="1.775" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="1.36" x2="-1.75" y2="1.775" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.775" x2="1.75" y2="1.775" width="0.127" layer="21"/>
+<wire x1="1.75" y1="1.775" x2="1.75" y2="1.37" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.44" x2="-1.75" y2="-1.77" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.77" x2="1.75" y2="-1.77" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-1.77" x2="1.75" y2="-1.46" width="0.127" layer="21"/>
+<wire x1="-3" y1="2" x2="3" y2="2" width="0.127" layer="39"/>
+<wire x1="3" y1="2" x2="3" y2="-2" width="0.127" layer="39"/>
+<wire x1="3" y1="-2" x2="-3" y2="-2" width="0.127" layer="39"/>
+<wire x1="-3" y1="-2" x2="-3" y2="2" width="0.127" layer="39"/>
+<text x="-1.778" y="2.032" size="0.8128" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-1.778" y="-3.048" size="0.8128" layer="27" font="vector" ratio="10">&gt;Value</text>
+<pad name="2C" x="-2.025" y="-0.8" drill="0.65" diameter="0.78" stop="no"/>
+<pad name="2D" x="2.025" y="-0.8" drill="0.65" diameter="0.78" stop="no"/>
 </package>
 </packages>
 <symbols>
@@ -1247,6 +1273,23 @@
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="434331013822" prefix="SW">
+<description>SPST Push Button, Board Edge</description>
+<gates>
+<gate name="G$1" symbol="SPST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="434331013822">
+<connects>
+<connect gate="G$1" pin="B" pad="2A 2B 2C 2D"/>
+<connect gate="G$1" pin="COM" pad="1A 1B"/>
 </connects>
 <technologies>
 <technology name=""/>

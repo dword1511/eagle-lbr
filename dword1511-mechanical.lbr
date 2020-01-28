@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -71,7 +70,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -102,7 +101,7 @@
 </layers>
 <library>
 <packages>
-<package name="1/4">
+<package name="HOLE-1/4IN">
 <hole x="0" y="0" drill="6.604"/>
 <circle x="0" y="0" radius="6.35" width="0.762" layer="41"/>
 <circle x="0" y="0" radius="6.35" width="0" layer="29"/>
@@ -190,6 +189,19 @@ Power Jack</text>
 <circle x="-17.5" y="17.5" radius="2.5" width="0" layer="43"/>
 <circle x="-17.5" y="-17.5" radius="2.5" width="0" layer="43"/>
 <circle x="17.5" y="-17.5" radius="2.5" width="0" layer="43"/>
+</package>
+<package name="BLDC-FAN-12-28-14">
+<hole x="0" y="0" drill="12"/>
+<wire x1="-14" y1="0" x2="14" y2="0" width="0" layer="20" curve="-180"/>
+<wire x1="14" y1="0" x2="-14" y2="0" width="0" layer="20" curve="-180"/>
+<pad name="L1" x="-7" y="-7" drill="1.5"/>
+<pad name="COM" x="7" y="7" drill="1.5"/>
+<pad name="L2" x="-7" y="7" drill="1.5"/>
+<text x="7" y="5" size="1.27" layer="21" font="vector" ratio="10" align="center">COM</text>
+<text x="-7" y="5" size="1.27" layer="21" font="vector" ratio="10" align="center">L2</text>
+<text x="-7" y="-9" size="1.27" layer="21" font="vector" ratio="10" align="center">L1</text>
+<rectangle x1="-3" y1="10" x2="3" y2="11" layer="21"/>
+<text x="3" y="12" size="1.27" layer="21" font="vector" ratio="10" align="center">+</text>
 </package>
 </packages>
 <symbols>
@@ -354,6 +366,25 @@ Power Jack</text>
 <wire x1="0.254" y1="-2.032" x2="0" y2="-2.286" width="0.127" layer="94"/>
 <wire x1="1.016" y1="-2.54" x2="0.508" y2="-3.048" width="0.127" layer="94"/>
 </symbol>
+<symbol name="BLDC-FAN">
+<circle x="0" y="0" radius="3.048" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.81" size="1.27" layer="95">&gt;NAME</text>
+<pin name="L1" x="-5.08" y="2.54" visible="off" length="middle" direction="pas"/>
+<pin name="L2" x="-5.08" y="-2.54" visible="off" length="middle" direction="pas"/>
+<pin name="COM" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="1.524" x2="0" y2="0.508" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0.508" x2="0.508" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="0.508" y1="0" x2="0" y2="-0.508" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="-0.508" x2="0" y2="-1.524" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-1.524" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0.508" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-1.016" x2="-2.286" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="1.016" x2="-1.524" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-0.762" x2="-0.762" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="1.016" x2="-0.762" y2="-1.016" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HOLE" prefix="H">
@@ -361,7 +392,7 @@ Power Jack</text>
 <gate name="G$1" symbol="HOLE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-1/4" package="1/4">
+<device name="-1/4" package="HOLE-1/4IN">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -384,6 +415,23 @@ Power Jack</text>
 </gates>
 <devices>
 <device name="-POXZY-ANCHOR" package="POZYX-ANCHOR">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BLDC-FAN" prefix="M">
+<gates>
+<gate name="G$1" symbol="BLDC-FAN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-12-28-14" package="BLDC-FAN-12-28-14">
+<connects>
+<connect gate="G$1" pin="COM" pad="COM"/>
+<connect gate="G$1" pin="L1" pad="L1"/>
+<connect gate="G$1" pin="L2" pad="L2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

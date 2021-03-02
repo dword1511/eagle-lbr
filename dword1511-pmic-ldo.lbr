@@ -56,6 +56,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -585,6 +586,50 @@
 <text x="2.7305" y="-2.2225" size="0.8128" layer="27" font="vector" rot="R90">&gt;VALUE</text>
 <wire x1="-0.5706" y1="0.73" x2="-1.2294" y2="0.73" width="0.2032" layer="21"/>
 <wire x1="1.2294" y1="0.73" x2="0.5706" y2="0.73" width="0.2032" layer="21"/>
+</package>
+<package name="SOT-363">
+<smd name="1" x="-0.65" y="-1" dx="0.42" dy="0.7" layer="1"/>
+<smd name="2" x="0" y="-1" dx="0.42" dy="0.7" layer="1"/>
+<smd name="3" x="0.65" y="-1" dx="0.42" dy="0.7" layer="1"/>
+<smd name="4" x="0.65" y="1" dx="0.42" dy="0.7" layer="1"/>
+<smd name="5" x="0" y="1" dx="0.42" dy="0.7" layer="1"/>
+<smd name="6" x="-0.65" y="1" dx="0.42" dy="0.7" layer="1"/>
+<wire x1="-1.075" y1="0.65" x2="1.075" y2="0.65" width="0.127" layer="51"/>
+<wire x1="1.075" y1="0.65" x2="1.075" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="1.075" y1="-0.65" x2="-1.075" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="-1.075" y1="-0.65" x2="-1.075" y2="0.65" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.4" x2="-1" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="1" y1="0.4" x2="1" y2="-0.4" width="0.127" layer="21"/>
+<circle x="-1.3462" y="-0.9398" radius="0.254" width="0" layer="21"/>
+<rectangle x1="-0.775" y1="0.7" x2="-0.525" y2="1.1" layer="51"/>
+<rectangle x1="-0.125" y1="-1.1" x2="0.125" y2="-0.7" layer="51"/>
+<rectangle x1="0.525" y1="0.7" x2="0.775" y2="1.1" layer="51"/>
+<rectangle x1="-0.775" y1="-1.1" x2="-0.525" y2="-0.7" layer="51"/>
+<rectangle x1="-0.125" y1="0.7" x2="0.125" y2="1.1" layer="51"/>
+<rectangle x1="0.525" y1="-1.1" x2="0.775" y2="-0.7" layer="51"/>
+<text x="-1.27" y="-0.508" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2.286" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="SOT-353">
+<smd name="1" x="-0.65" y="-1" dx="0.42" dy="0.7" layer="1"/>
+<smd name="2" x="0" y="-1" dx="0.42" dy="0.7" layer="1"/>
+<smd name="3" x="0.65" y="-1" dx="0.42" dy="0.7" layer="1"/>
+<smd name="4" x="0.65" y="1" dx="0.42" dy="0.7" layer="1"/>
+<smd name="5" x="-0.65" y="1" dx="0.42" dy="0.7" layer="1"/>
+<wire x1="-1.075" y1="0.65" x2="1.075" y2="0.65" width="0.127" layer="51"/>
+<wire x1="1.075" y1="0.65" x2="1.075" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="1.075" y1="-0.65" x2="-1.075" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="-1.075" y1="-0.65" x2="-1.075" y2="0.65" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.4" x2="-1" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="1" y1="0.4" x2="1" y2="-0.4" width="0.127" layer="21"/>
+<circle x="-1.3462" y="-0.9398" radius="0.254" width="0" layer="21"/>
+<rectangle x1="-0.775" y1="0.7" x2="-0.525" y2="1.1" layer="51"/>
+<rectangle x1="-0.125" y1="-1.1" x2="0.125" y2="-0.7" layer="51"/>
+<rectangle x1="0.525" y1="0.7" x2="0.775" y2="1.1" layer="51"/>
+<rectangle x1="-0.775" y1="-1.1" x2="-0.525" y2="-0.7" layer="51"/>
+<rectangle x1="0.525" y1="-1.1" x2="0.775" y2="-0.7" layer="51"/>
+<text x="-1.27" y="-0.508" size="0.8128" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="2.286" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1396,6 +1441,135 @@
 <technology name="A?33"/>
 <technology name="A?50"/>
 <technology name="A?85"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP1754S" prefix="U">
+<description>PSRR 70 dB @ 1 kHz, IQ 56 uA, Vin 16 V, 150 mA, High-performance LDO</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-LDO-3PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="/CB" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name="-1802E"/>
+<technology name="-3302E"/>
+<technology name="-5002E"/>
+</technologies>
+</device>
+<device name="/DB" package="SOT-223">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 4"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="-3302E"/>
+<technology name="-5002E"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC5365" prefix="U">
+<description>150 mA High-Performance LDO</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-LDO-5PIN-NC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="D5" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="-1.2Y"/>
+<technology name="-1.8Y"/>
+<technology name="-2.85Y"/>
+<technology name="-2.8Y"/>
+<technology name="-3.3Y"/>
+</technologies>
+</device>
+<device name="C5" package="SOT-353">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="-1.0Y"/>
+<technology name="-1.2Y"/>
+<technology name="-1.3Y"/>
+<technology name="-1.5Y"/>
+<technology name="-1.8Y"/>
+<technology name="-2.0Y"/>
+<technology name="-2.5Y"/>
+<technology name="-2.6Y"/>
+<technology name="-2.7Y"/>
+<technology name="-2.85Y"/>
+<technology name="-2.8Y"/>
+<technology name="-2.9Y"/>
+<technology name="-3.0Y"/>
+<technology name="-3.3Y"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC5366" prefix="U">
+<description>150 mA High-Performance LDO with Discharge</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-LDO-5PIN-NC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="D5" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="-1.2Y"/>
+<technology name="-1.8Y"/>
+<technology name="-2.85Y"/>
+<technology name="-2.8Y"/>
+<technology name="-3.3Y"/>
+</technologies>
+</device>
+<device name="C5" package="SOT-353">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="-1.0Y"/>
+<technology name="-1.2Y"/>
+<technology name="-1.3Y"/>
+<technology name="-1.5Y"/>
+<technology name="-1.8Y"/>
+<technology name="-2.0Y"/>
+<technology name="-2.5Y"/>
+<technology name="-2.6Y"/>
+<technology name="-2.7Y"/>
+<technology name="-2.85Y"/>
+<technology name="-2.8Y"/>
+<technology name="-2.9Y"/>
+<technology name="-3.0Y"/>
+<technology name="-3.3Y"/>
 </technologies>
 </device>
 </devices>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -164,6 +164,36 @@ SOLDERMASK</text>
 <text x="3.81" y="-1.27" size="0.8128" layer="25" font="vector">&gt;NAME</text>
 <text x="3.81" y="-2.54" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="MENG-2010-DUALBAND-WIFI">
+<rectangle x1="-8" y1="0" x2="8" y2="51" layer="43"/>
+<wire x1="-9.08" y1="51.16" x2="9.304" y2="51.16" width="0.127" layer="39"/>
+<wire x1="9.304" y1="51.16" x2="9.304" y2="-0.016" width="0.127" layer="39"/>
+<wire x1="-9.08" y1="-0.016" x2="-9.08" y2="51.16" width="0.127" layer="39"/>
+<wire x1="-9.08" y1="51.16" x2="9.304" y2="51.16" width="0.127" layer="40"/>
+<wire x1="9.304" y1="51.16" x2="9.304" y2="-0.016" width="0.127" layer="40"/>
+<wire x1="9.304" y1="-0.016" x2="-9.08" y2="-0.016" width="0.127" layer="40"/>
+<wire x1="-9.08" y1="-0.016" x2="-9.08" y2="51.16" width="0.127" layer="40"/>
+<text x="-8.014" y="-1.016" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="1.066" y="-1.016" size="0.8128" layer="27" font="vector">&gt;VALUE</text>
+<smd name="GND" x="0" y="14" dx="3" dy="20" layer="1" thermals="no"/>
+<wire x1="-9.08" y1="-0.016" x2="9.304" y2="-0.016" width="0.127" layer="39"/>
+<rectangle x1="-8" y1="0" x2="-5" y2="24" layer="1"/>
+<rectangle x1="5" y1="0" x2="8" y2="24" layer="1"/>
+<rectangle x1="-1.5" y1="0" x2="1.5" y2="24" layer="1"/>
+<rectangle x1="-8" y1="21" x2="8" y2="24" layer="1"/>
+<rectangle x1="-8" y1="27" x2="-5" y2="49" layer="1"/>
+<rectangle x1="-8" y1="48" x2="-2.5" y2="51" layer="1"/>
+<rectangle x1="5" y1="27" x2="8" y2="49" layer="1"/>
+<rectangle x1="2.5" y1="48" x2="8" y2="51" layer="1"/>
+<rectangle x1="-4.4" y1="29" x2="4.4" y2="42.5" layer="1"/>
+<rectangle x1="-6" y1="27" x2="6" y2="30" layer="1"/>
+<polygon width="0.2" layer="1">
+<vertex x="-7.9" y="27"/>
+<vertex x="0" y="25"/>
+<vertex x="7.9" y="27"/>
+</polygon>
+<smd name="FEED" x="0" y="26" dx="2" dy="2" layer="1" roundness="100" thermals="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="GENERIC-ANT-GND">
@@ -267,6 +297,25 @@ SOLDERMASK</text>
 <connect gate="G$1" pin="M1" pad="M1"/>
 <connect gate="G$1" pin="M2" pad="M2"/>
 <connect gate="G$1" pin="M3" pad="M3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MENG-2010-DUALBAND-WIFI" prefix="ANT">
+<description>2.4 GHz / 5 GHz Dual-band Di-pole Antenna for Wi-Fi
+
+&lt;p&gt;Source: Meng (2010) A DUAL-BAND OMNI-DIRECTIONAL MICROSTRIP ANTENNA</description>
+<gates>
+<gate name="G$1" symbol="GENERIC-ANT-GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MENG-2010-DUALBAND-WIFI">
+<connects>
+<connect gate="G$1" pin="FEED" pad="FEED"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
 </connects>
 <technologies>
 <technology name=""/>
